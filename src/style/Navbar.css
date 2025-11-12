@@ -10,6 +10,7 @@
   font-family: "Cairo", sans-serif;
   z-index: 100000;
   width: 100%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
 .logo-section-personal {
@@ -36,6 +37,7 @@
   gap: 25px;
   list-style: none;
   margin: 0;
+  transition: all 0.3s ease;
 }
 
 .nav-links-personal a {
@@ -59,13 +61,59 @@
   background-color: #3871c1;
   transition: width 0.5s ease;
 }
+
 .nav-links-personal a:hover::after {
   width: 40%;
-  color: #717171 !important;
 }
+
 .nav-links-personal .active::after {
   width: 40%;
 }
+
 .active {
   color: #717171 !important;
+}
+
+.menu-icon-personal {
+  display: none;
+  font-size: 32px;
+  color: #3871c1;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.menu-icon-personal:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 940px) {
+  .nav-links-personal {
+    position: absolute;
+    top: 75px;
+    right: 0;
+    background-color: #f9f9f9;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 70%;
+    padding: 20px;
+    height: 70vh;
+    gap: 15px;
+    border-top: 1px solid #e0e0e0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-bottom-left-radius: 10px;
+    transform: translateY(-200%);
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .nav-links-personal.open {
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: auto;
+    direction: rtl;
+  }
+
+  .menu-icon-personal {
+    display: block;
+  }
 }
