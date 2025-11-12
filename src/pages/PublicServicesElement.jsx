@@ -7,7 +7,7 @@ function PublicServicesElement() {
   return (
     <div className='w-100'>
       <div className="container mt-4">
-        <h2 className="text-center fs-2 fw-bolder mt-4">{service.title}</h2>
+        <h2 className="text-center fs-2 fw-bolder mt-4 small-title">{service.title}</h2>
             <div className="accordion mb-5 mt-5" id={`accordion${service.id}`} dir="rtl">
                 <div className="accordion-item">
                 <h2 className="accordion-header">

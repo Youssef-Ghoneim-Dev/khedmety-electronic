@@ -58,6 +58,9 @@ mark {
     width: 60%;
     font-size: 16px;
   }
+  .small-title {
+    font-size: 20px !important;
+  }
   .container.w-75 {
     width: 95% !important;
   }
@@ -68,7 +71,10 @@ mark {
     gap: 20px;
     padding: 20px;
   }
-
+  .small-title.fs-2, .small-title {
+    font-size: 18px !important;
+    line-height: 30px;
+  }
   .search-title {
     font-size: 22px;
     line-height: 30px;
@@ -96,7 +102,10 @@ mark {
     gap: 15px;
     padding: 15px;
   }
-
+  .small-title {
+    font-size: 16px !important;
+    line-height: 30px;
+  }
   .search-title {
     font-size: 18px;
     line-height: 25px;
@@ -115,23 +124,25 @@ mark {
 
   .accordion .accordion-header .accordion-button div {
     font-size: 16px !important;
+    width: 85%;
+    direction: rtl;
+    text-align: right;
+    line-height: 30px;
+  }
+  .accordion .accordion-header .accordion-button {
+    font-size: 16px !important;
+    direction: rtl;
+    text-align: right;
+    line-height: 30px;
   }
 
-  .accordion .accordion-body p {
+  .accordion .accordion-body,
+  .accordion .accordion-body p,
+  .accordion .accordion-body ul li {
     font-size: 14px !important;
   }
 
   .search-input::placeholder {
     font-size: 14px;
-  }
-}
-
-@media (max-width: 500px) {
-  .accordion .accordion-header .accordion-button div {
-    font-size: 12px !important;
-  }
-
-  .accordion .accordion-body p {
-    font-size: 10px !important;
   }
 }
