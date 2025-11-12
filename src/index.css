@@ -5,9 +5,45 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
 }
-
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.accordion-button::after {
+    color: white !important;
+    position: absolute;
+    left: 20px;
+}
+.accordion-button:hover::after {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(105%) contrast(101%);
+  transition: filter 0.5s ease;
+}
+.accordion-button:not(.collapsed)::after {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(105%) contrast(101%);
+  transition: filter 0.5s ease;
+}
+.accordion-button:not(.collapsed) {
+  color: #fff !important;
+  background-color: #3871c1 !important;
+  box-shadow: none !important;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+
+.accordion-button:hover {
+  background-color: #3871c1 !important;
+  color: #fff !important;
 }
