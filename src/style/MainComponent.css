@@ -16,6 +16,7 @@
 .right_div p {
   font-size: 25px;
   line-height: 1.5;
+  direction: rtl;
 }
 
 .right_div h1 {

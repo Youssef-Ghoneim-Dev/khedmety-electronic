@@ -5,6 +5,7 @@ import ServiceDetails from './pages/ServiceDetails';
 import PublicServices from './pages/PublicServices';
 import PublicServicesElement from './pages/PublicServicesElement';
 import ServicesElement from './pages/ServicesElement';
+import AboutPage from './pages/AboutPage';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 function App() {
@@ -18,6 +19,7 @@ function App() {
                 <Route path='/services/:id' element={<ServicesElement />} />
                 <Route path='/public' element={<PublicServices />} />
                 <Route path='/public/:id' element={<PublicServicesElement />} />
+                <Route path='/about' element={<AboutPage />} />
             </Routes>
             <Footer />
         </BrowserRouter>

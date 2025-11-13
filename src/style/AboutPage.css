@@ -1,0 +1,123 @@
+.about-page {
+  font-family: "Cairo", sans-serif;
+  padding: 50px 80px;
+  color: #333;
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.about-header h1 {
+  color: #3871c1;
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.about-header p {
+  font-size: 30px;
+  line-height: 1.6;
+}
+
+.about-section {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+.about-section.reverse {
+  flex-direction: row-reverse;
+}
+
+.about-image {
+  flex: 1;
+}
+
+.image-placeholder {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.about-text {
+  flex: 1;
+  direction: rtl;
+}
+
+.about-text h2 {
+  color: #3871c1;
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+.about-text p {
+  font-size: 30px;
+  line-height: 1.6;
+}
+
+@media (max-width: 1200px) {
+  .about-page {
+    padding: 40px 50px;
+  }
+
+  .about-header h1 {
+    font-size: 36px;
+  }
+
+  .about-header p {
+    font-size: 20px;
+  }
+
+  .about-text h2 {
+    font-size: 28px;
+  }
+
+  .about-text p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 900px) {
+  .about-page {
+    padding: 30px 30px;
+  }
+
+  .about-section {
+    flex-direction: column;
+    gap: 25px;
+  }
+  .about-text {
+    text-align: center;
+  }
+
+  .about-text h2 {
+    font-size: 26px;
+  }
+
+  .about-text p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-page {
+    padding: 20px 15px;
+  }
+
+  .about-header h1 {
+    font-size: 28px;
+  }
+
+  .about-header p {
+    font-size: 16px;
+  }
+
+  .about-text h2 {
+    font-size: 22px;
+  }
+
+  .about-text p {
+    font-size: 14px;
+  }
+}
