@@ -8,6 +8,7 @@ import ServicesElement from './pages/ServicesElement';
 import AboutPage from './pages/AboutPage';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
+import Contact from './pages/contact';
 function App() {
   return (
     <div className="App">
@@ -20,6 +21,7 @@ function App() {
                 <Route path='/public' element={<PublicServices />} />
                 <Route path='/public/:id' element={<PublicServicesElement />} />
                 <Route path='/about' element={<AboutPage />} />
+                <Route path='/contact' element={<Contact />} />
             </Routes>
             <Footer />
         </BrowserRouter>

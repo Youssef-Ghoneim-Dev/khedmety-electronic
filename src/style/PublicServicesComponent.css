@@ -16,15 +16,21 @@ mark {
   margin-bottom: 20px;
   padding: 0 20px;
 }
-
+.search-input-div {
+    width: 100%;
+  display: flex;
+  flex-flow: row-reverse wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
 .search-input {
-  width: 50%;
+  width: 80%;
   max-width: 500px;
   height: 45px;
   padding: 10px 15px;
   border-radius: 30px !important;
   text-align: right;
-  margin-bottom: 20px;
   border: 2px solid #3871c1;
   font-size: 18px;
   transition: all 0.3s ease;
@@ -71,7 +77,8 @@ mark {
     gap: 20px;
     padding: 20px;
   }
-  .small-title.fs-2, .small-title {
+  .small-title.fs-2,
+  .small-title {
     font-size: 18px !important;
     line-height: 30px;
   }

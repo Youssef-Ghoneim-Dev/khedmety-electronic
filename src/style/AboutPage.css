@@ -4,22 +4,6 @@
   color: #333;
 }
 
-.about-header {
-  text-align: center;
-  margin-bottom: 60px;
-}
-
-.about-header h1 {
-  color: #3871c1;
-  font-size: 42px;
-  margin-bottom: 20px;
-}
-
-.about-header p {
-  font-size: 30px;
-  line-height: 1.6;
-}
-
 .about-section {
   display: flex;
   align-items: center;
@@ -27,7 +11,7 @@
   margin-bottom: 60px;
 }
 
-.about-section.reverse {
+.reverse {
   flex-direction: row-reverse;
 }
 
@@ -59,14 +43,6 @@
 @media (max-width: 1200px) {
   .about-page {
     padding: 40px 50px;
-  }
-
-  .about-header h1 {
-    font-size: 36px;
-  }
-
-  .about-header p {
-    font-size: 20px;
   }
 
   .about-text h2 {
@@ -103,14 +79,6 @@
 @media (max-width: 600px) {
   .about-page {
     padding: 20px 15px;
-  }
-
-  .about-header h1 {
-    font-size: 28px;
-  }
-
-  .about-header p {
-    font-size: 16px;
   }
 
   .about-text h2 {

@@ -4,12 +4,6 @@ import "../style/AboutPage.css";
 function AboutPage() {
   return (
     <div className="about-page">
-      <div className="about-header">
-        <h1>خدمتي الإلكترونية</h1>
-        <p>
-          منصة رقمية تهدف لتسهيل وصول المواطنين إلى جميع الخدمات الحكومية في مصر
-        </p>
-      </div>
 
       <div className="about-section">
         <div className="about-text">
