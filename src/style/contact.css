@@ -1,23 +1,25 @@
 .contact-page-wrapper {
   min-height: 100vh;
   display: flex;
+  flex-flow: row wrap;
   align-items: center;
   justify-content: center;
-  padding: 80px 15px;
-  background-color: #f5f7fb;
+  padding: 30px;
   direction: rtl;
   font-family: "Cairo", sans-serif;
   position: relative;
   transition: filter 0.3s ease;
+  width: 100%;
 }
 
 .contact-page-wrapper.blurred {
   filter: blur(3px);
+  position: relative;
+  z-index: 1;
 }
 
 .contact-container {
-  width: 100%;
-  max-width: 900px;
+  width: 80%;
   background-color: #ffffff;
   padding: 40px 35px;
   border-radius: 18px;
@@ -61,7 +63,8 @@
   font-size: 16px;
   font-family: inherit;
   text-align: right;
-  transition: border-color 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease,
+    background-color 0.2s ease;
   background-color: #f9fbff;
 }
 
@@ -92,7 +95,8 @@
   border-radius: 10px;
   cursor: pointer;
   font-weight: 700;
-  transition: background-color 0.2s ease, transform 0.1s ease, box-shadow 0.2s ease;
+  transition: background-color 0.2s ease, transform 0.1s ease,
+    box-shadow 0.2s ease;
 }
 
 .contact-form button:hover:not(:disabled) {
@@ -109,9 +113,108 @@
 .btn-loading {
   position: relative;
 }
+.contact-highlights {
+  width: 100%;
+  margin-bottom: 35px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
 
-/* Overlay */
+.highlight-icons {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 30px;
+}
 
+.highlight-item {
+  width: 30%;
+  padding: 18px 12px;
+  border-radius: 14px;
+  border: 2px solid #dbe6f7;
+}
+
+.highlight-item .icon {
+  font-size: 50px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.highlight-item p {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.benefits-box {
+  width: 90%;
+  background-color: #ffffff;
+  border: 2px solid #dbe6f7;
+  padding: 20px 18px;
+  border-radius: 14px;
+  margin-bottom: 30px;
+}
+
+.benefits-box h3 {
+  color: #3871c1;
+  font-size: 22px;
+  margin-bottom: 12px;
+  font-weight: 800;
+}
+
+.benefits-box ul {
+  padding: 0;
+  margin: 15px;
+  text-align: right;
+}
+
+.benefits-box li {
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+
+.divider {
+  width: 100%;
+  text-align: center;
+  margin: 35px 0 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.divider span {
+  color: #3871c1;
+  font-size: 20px;
+  font-weight: 700;
+  position: relative;
+}
+.divider::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #dbe6f7;
+  z-index: 1;
+}
+.white {
+  background-color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  z-index: 15;
+}
+.contact-illustration {
+  width: 100px;
+  border-radius: 10px;
+}
 .status-overlay {
   position: fixed;
   inset: 0;
@@ -119,8 +222,8 @@
   backdrop-filter: blur(6px);
   display: flex;
   align-items: center;
+  z-index: 999999;
   justify-content: center;
-  z-index: 9999;
 }
 
 .status-box {
@@ -130,6 +233,8 @@
   text-align: center;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
   min-width: 220px;
+  position: absolute;
+  z-index: 10000;
 }
 
 .status-circle {
@@ -184,16 +289,50 @@
   font-weight: 700;
   color: #333333;
 }
+.dots-loading {
+  font-size: 20px;
+  font-weight: 700;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-/* Animations */
+.dots span {
+  opacity: 0;
+  animation: blink 1.4s infinite;
+  margin-left: 3px;
+  font-size: 26px;
+  font-weight: 900;
+}
+
+.dots span:nth-child(1) {
+  animation-delay: 0s;
+}
+.dots span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.dots span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 
 @keyframes spin {
   to {
     transform: rotate(360deg);
   }
 }
-
-/* Responsive */
 
 @media (max-width: 768px) {
   .contact-container {
@@ -211,6 +350,13 @@
   .form-row {
     flex-direction: column;
     gap: 15px;
+  }
+  .highlight-icons {
+    flex-direction: column;
+  }
+
+  .highlight-item {
+    width: 100%;
   }
 }
 

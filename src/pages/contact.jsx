@@ -4,9 +4,6 @@ import "../style/contact.css";
 
 function Contact() {
   const [status, setStatus] = useState("idle");
-    console.log("SERVICE:", process.env.REACT_APP_EMAILJS_SERVICE_ID);
-console.log("TEMPLATE:", process.env.REACT_APP_EMAILJS_TEMPLATE_ID);
-console.log("PUBLIC:", process.env.REACT_APP_EMAILJS_PUBLIC_KEY);
 
   function handleSubmit(e) {
     e.preventDefault();
@@ -35,7 +32,45 @@ console.log("PUBLIC:", process.env.REACT_APP_EMAILJS_PUBLIC_KEY);
   }
 
   return (
+    <>
     <div className={`contact-page-wrapper ${status !== "idle" ? "blurred" : ""}`}>
+        <div className="contact-highlights">
+            <div className="highlight-icons">
+                <div className="highlight-item">
+                <i className='bx bx-message-rounded-dots icon'></i>
+                <p>راسلنا في أي وقت وسنعود إليك بأسرع ما يمكن</p>
+                </div>
+
+                <div className="highlight-item">
+                <i className='bx bxs-cog icon'></i>
+                <p>شارك معنا أي اقتراح لتحسين الخدمات</p>
+                </div>
+
+                <div className="highlight-item">
+                <span className="material-symbols-outlined icon">
+                construction
+                </span>
+                <p>أبلغنا عن أي مشكلة تواجهك داخل الموقع</p>
+                </div>
+            </div>
+
+            <div className="benefits-box">
+                <h3>كيف نستفيد من رسالتك؟</h3>
+                <ul>
+                <li>تحسين دقة وتحديث بيانات الخدمات الحكومية</li>
+                <li>إضافة خدمات جديدة بناءً على اقتراحات المستخدمين</li>
+                <li>معالجة المشاكل التقنية وتطوير تجربة الاستخدام</li>
+                </ul>
+            </div>
+
+            <div className="divider">
+                <div className="white">
+                    <span>ابدأ مراسلتنا الآن</span>
+                    <img src="/10.png" className="contact-illustration" alt=""/>
+                </div>
+            </div>
+            </div>
+
       <div className="contact-container">
         <h1 className="contact-title">تواصل معنا</h1>
         <p className="contact-desc">
@@ -92,8 +127,8 @@ console.log("PUBLIC:", process.env.REACT_APP_EMAILJS_PUBLIC_KEY);
           </button>
         </form>
       </div>
-
-      {status !== "idle" && (
+    </div>
+    {status !== "idle" && (
         <div className="status-overlay">
           <div className="status-box">
             <div
@@ -110,14 +145,18 @@ console.log("PUBLIC:", process.env.REACT_APP_EMAILJS_PUBLIC_KEY);
               {status === "error" && <span className="status-icon">✖</span>}
             </div>
             <div className="status-text">
-              {status === "loading" && "Loading..."}
+              {status === "loading" && (
+                    <div className="dots-loading">
+                        Loading<span className="dots"><span>.</span><span>.</span><span>.</span></span>
+                    </div>
+                )}
               {status === "success" && "Done"}
               {status === "error" && "Failed"}
             </div>
           </div>
         </div>
       )}
-    </div>
+    </>
   );
 }
 
