@@ -1,5 +1,7 @@
 .main_comp {
   width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
   height: 75vh;
   display: flex;
   justify-content: center;
@@ -23,6 +25,25 @@
   color: #3871c1;
   font-size: 38px;
   margin-bottom: 15px;
+}
+.start-btn {
+  margin-top: 20px;
+  background-color: #3871c1;
+  color: #fff;
+  min-width: 200px;
+  padding: 14px 55px;
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s ease;
+}
+
+.start-btn:hover {
+  background-color: #2f5da0;
+  transform: translateY(-10px) scale(1.1);
+  box-shadow: 0 6px 14px rgba(47, 93, 160, 0.3);
 }
 
 .main_comp img {

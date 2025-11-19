@@ -1,16 +1,22 @@
 import ServiceDetailsComp from "../components/ServiceDetailsComp";
 import React, { useState } from 'react';
 import electronicServices from "../data/ServiceData";
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 function ServiceDetails() {
+        const location = useLocation();
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [location.pathname]);
     const [searchQueryElectronics, setSearchQueryElectronics] = useState("");
     let [value,setvalue] = useState("جميع الخدمات")
     const categorie = [...new Set(
         electronicServices.map(item => item.categories.target)
     )];
-    function setnewvalue(e) {
-        console.log(e.target.value);
+    function setnewvalue(val) {
+        console.log(val);
         
-        setvalue(e.target.value)
+        setvalue(val)
     }
     return (
         <div className="w-100">
@@ -26,19 +32,19 @@ function ServiceDetails() {
                     />
                     <div className="btn-group" dir="rtl">
                         <button type="button" className="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                            فلترة الخدمات
+                            {value}
                         </button>
                         <ul className="dropdown-menu">
                             <li>
-                                <a className="dropdown-item" href="#" onClick={(e) => setnewvalue(e)} value="جميع الخدمات">
+                                <button type="button" className="dropdown-item" onClick={() => setnewvalue("جميع الخدمات")}>
                                     جميع الخدمات
-                                </a>
+                                </button>
                             </li>
                             {categorie.map((item, index) => (
                                 <li key={index}>
-                                    <a className="dropdown-item" href="#" onClick={(e) => setnewvalue(e)} value={item}>
+                                    <button type="button" className="dropdown-item" onClick={() => setnewvalue(item)}>
                                         {item}
-                                    </a>
+                                    </button>
                                 </li>
                             ))}
                         </ul>

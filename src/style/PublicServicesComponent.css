@@ -17,7 +17,7 @@ mark {
   padding: 0 20px;
 }
 .search-input-div {
-    width: 100%;
+  width: 100%;
   display: flex;
   flex-flow: row-reverse wrap;
   justify-content: center;
@@ -53,6 +53,10 @@ mark {
 .container.w-75 {
   max-width: 90%;
   padding: 0 10px;
+}
+.activeitem {
+  background-color: #3871c1 !important;
+  color: white !important;
 }
 @media (max-width: 1200px) {
   .search-title {

@@ -1,0 +1,71 @@
+.how-section {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+.how-title {
+  font-size: 36px;
+  font-weight: 800;
+  color: #3871c1;
+  margin-bottom: 50px;
+}
+
+.how-steps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.how-card {
+  width: 220px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 25px 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  transform: translateY(30px);
+  transition: transform 0.3s ease;
+}
+
+.how-card:hover {
+  transform: translateY(-5px) scale(1.03);
+}
+
+.how-number {
+  font-size: 24px;
+  font-weight: 700;
+  color: #3871c1;
+  margin-bottom: 15px;
+}
+
+.how-icon {
+  font-size: 40px;
+  color: #3871c1;
+  margin-bottom: 15px;
+}
+
+.how-desc {
+  font-size: 16px;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .how-card {
+    width: 180px;
+    padding: 20px 15px;
+  }
+  .how-title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .how-card {
+    width: 100%;
+    max-width: 250px;
+  }
+  .how-title {
+    font-size: 26px;
+  }
+}

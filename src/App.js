@@ -9,7 +9,23 @@ import AboutPage from './pages/AboutPage';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import Contact from './pages/contact';
+import Servicecat from './pages/Servicecat';
+
 function App() {
+    const categories = [
+  "الهوية والوثائق",
+  "السفر والجوازات",
+  "المرور والنقل",
+  "الصحة",
+  "التعليم",
+  "التموين والدعم",
+  "الإسكان والعقارات",
+  "التأمينات والعمل",
+  "الشؤون الاجتماعية",
+  "الخدمات الرقمية",
+];
+
+
   return (
     <div className="App">
         <BrowserRouter>
@@ -19,6 +35,11 @@ function App() {
                 <Route path='/services' element={<ServiceDetails />} />
                 <Route path='/services/:id' element={<ServicesElement />} />
                 <Route path='/public' element={<PublicServices />} />
+                {
+                    categories.map((cat, idx) => (
+                        <Route key={idx} path={`/public/${cat}`} element={<Servicecat />} />
+                    ))
+                }
                 <Route path='/public/:id' element={<PublicServicesElement />} />
                 <Route path='/about' element={<AboutPage />} />
                 <Route path='/contact' element={<Contact />} />

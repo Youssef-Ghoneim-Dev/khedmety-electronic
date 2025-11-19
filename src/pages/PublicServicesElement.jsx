@@ -1,6 +1,12 @@
 import { useParams } from 'react-router-dom';
 import services from '../data/PuplicData.js';
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 function PublicServicesElement() {
+        const location = useLocation();
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [location.pathname]);
   const { id } = useParams();
   const service = services[id - 1]; 
   if (!service) return <div>الخدمة غير موجودة</div>;

@@ -1,6 +1,12 @@
 import { useParams } from 'react-router-dom';
 import electronicServices from "../data/ServiceData";
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 function ServiceDetailsElement() {
+        const location = useLocation();
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [location.pathname]);
   const { id } = useParams();
   const service = electronicServices[id - 251]; 
   if (!service) return <div>الخدمة غير موجودة</div>;

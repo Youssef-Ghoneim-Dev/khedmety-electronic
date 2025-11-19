@@ -1,10 +1,15 @@
 import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
 import "../style/contact.css";
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
 function Contact() {
   const [status, setStatus] = useState("idle");
-
+    const location = useLocation();
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [location.pathname]);
   function handleSubmit(e) {
     e.preventDefault();
     setStatus("loading");
