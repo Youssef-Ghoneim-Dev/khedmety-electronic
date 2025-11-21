@@ -24,12 +24,12 @@
   border-radius: 20px;
   padding: 25px 20px;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
-  transform: translateY(30px);
+  transform: translateY(15px);
   transition: transform 0.3s ease;
 }
 
 .how-card:hover {
-  transform: translateY(-5px) scale(1.03);
+  transform: translateY(-1px) scale(1.03);
 }
 
 .how-number {

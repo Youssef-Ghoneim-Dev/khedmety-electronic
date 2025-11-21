@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import React from 'react';
 import Fuse from 'fuse.js';
 import Accordion from 'react-bootstrap/Accordion';
-
+import AnimatedLeftToRight from "../Animated/AnimatedLeftToRight.jsx"
 
 function highlightText(text, query) {
     if (!query) return text;
@@ -25,12 +25,13 @@ function PublicServicesComponent({ query , thevalue }) {
     return (
         <div className="container w-75 my-4 mb-5" dir="rtl">
             {
-                thevalue === "جميع الخدمات" ? (
-                    filteredServices.length === 0 ? (
-                        <p className="text-center fs-4 text-muted mt-5">
-                            لا توجد نتائج مطابقة لبحثك 🔍
-                        </p>
-                    ) : (
+                filteredServices.length === 0 ? (
+                    <p className="text-center fs-4 text-muted mt-5">
+                        لا توجد نتائج مطابقة لبحثك 🔍
+                    </p>
+                ) : (
+                    thevalue === "جميع الخدمات" ? (
+                    <AnimatedLeftToRight>
                         <Accordion>
                             {filteredServices.map((element, index) => (
                                 <Accordion.Item eventKey={index.toString()} key={element.id}>
@@ -51,30 +52,33 @@ function PublicServicesComponent({ query , thevalue }) {
                                 </Accordion.Item>
                             ))}
                         </Accordion>
+                    </AnimatedLeftToRight>
+                    ) : (
+                        filteredServices
+                            .filter(item => item.categories.target === thevalue)
+                            .map((element, index) => (
+                                <AnimatedLeftToRight>
+                                <Accordion key={element.id}>
+                                    <Accordion.Item eventKey={index.toString()}>
+                                        <Accordion.Header>
+                                            <div dir="rtl" className="fs-5">
+                                                {highlightText(element.title, query)}
+                                            </div>
+                                        </Accordion.Header>
+                                        <Accordion.Body dir="rtl">
+                                            <p className="fs-5">{highlightText(element.desc, query)}</p>
+                                            <Link
+                                                to={`/public/${element.id}`}
+                                                className="btn btn-outline-primary mt-2 fs-5"
+                                            >
+                                                الذهاب إلى الخدمة
+                                            </Link>
+                                        </Accordion.Body>
+                                    </Accordion.Item>
+                                </Accordion>
+                                </AnimatedLeftToRight>
+                            ))
                     )
-                ) : (
-                    filteredServices
-                        .filter(item => item.categories.target === thevalue)
-                        .map((element, index) => (
-                            <Accordion key={element.id}>
-                                <Accordion.Item eventKey={index.toString()}>
-                                    <Accordion.Header>
-                                        <div dir="rtl" className="fs-5">
-                                            {highlightText(element.title, query)}
-                                        </div>
-                                    </Accordion.Header>
-                                    <Accordion.Body dir="rtl">
-                                        <p className="fs-5">{highlightText(element.desc, query)}</p>
-                                        <Link
-                                            to={`/public/${element.id}`}
-                                            className="btn btn-outline-primary mt-2 fs-5"
-                                        >
-                                            الذهاب إلى الخدمة
-                                        </Link>
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                            </Accordion>
-                        ))
                 )
             }
         </div>

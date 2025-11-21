@@ -3,7 +3,10 @@ import emailjs from "@emailjs/browser";
 import "../style/contact.css";
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-
+import AnimatedLeftToRight from "../Animated/AnimatedLeftToRight";
+import AnimatedRightToLeft from "../Animated/AnimatedRightToLeft";
+import AnimatedTopToBottom from "../Animated/AnimatedTopToBottom";
+import AnimatedBottomToTop from "../Animated/AnimatedBottomToTop";
 function Contact() {
   const [status, setStatus] = useState("idle");
     const location = useLocation();
@@ -41,97 +44,105 @@ function Contact() {
     <div className={`contact-page-wrapper ${status !== "idle" ? "blurred" : ""}`}>
         <div className="contact-highlights">
             <div className="highlight-icons">
-                <div className="highlight-item">
-                <i className='bx bx-message-rounded-dots icon'></i>
-                <p>راسلنا في أي وقت وسنعود إليك بأسرع ما يمكن</p>
+                <AnimatedRightToLeft classname="highlight-item">
+                    <div>
+                        <i className='bx bx-message-rounded-dots icon'></i>
+                        <p>راسلنا في أي وقت وسنعود إليك بأسرع ما يمكن</p>
+                    </div>
+                </AnimatedRightToLeft>
+                <AnimatedTopToBottom classname="highlight-item">
+                <div>
+                    <i className='bx bxs-cog icon'></i>
+                    <p>شارك معنا أي اقتراح لتحسين الخدمات</p>
                 </div>
-
-                <div className="highlight-item">
-                <i className='bx bxs-cog icon'></i>
-                <p>شارك معنا أي اقتراح لتحسين الخدمات</p>
+                </AnimatedTopToBottom>
+                <AnimatedLeftToRight classname="highlight-item">
+                <div>
+                    <span className="material-symbols-outlined icon">
+                    construction
+                    </span>
+                    <p>أبلغنا عن أي مشكلة تواجهك داخل الموقع</p>
                 </div>
-
-                <div className="highlight-item">
-                <span className="material-symbols-outlined icon">
-                construction
-                </span>
-                <p>أبلغنا عن أي مشكلة تواجهك داخل الموقع</p>
-                </div>
+                </AnimatedLeftToRight>
             </div>
-
-            <div className="benefits-box">
-                <h3>كيف نستفيد من رسالتك؟</h3>
-                <ul>
-                <li>تحسين دقة وتحديث بيانات الخدمات الحكومية</li>
-                <li>إضافة خدمات جديدة بناءً على اقتراحات المستخدمين</li>
-                <li>معالجة المشاكل التقنية وتطوير تجربة الاستخدام</li>
-                </ul>
-            </div>
+            <AnimatedBottomToTop  classname="benefits-box">
+                <div>
+                    <h3>كيف نستفيد من رسالتك؟</h3>
+                    <ul>
+                    <li>تحسين دقة وتحديث بيانات الخدمات الحكومية</li>
+                    <li>إضافة خدمات جديدة بناءً على اقتراحات المستخدمين</li>
+                    <li>معالجة المشاكل التقنية وتطوير تجربة الاستخدام</li>
+                    </ul>
+                </div>
+            </AnimatedBottomToTop>
 
             <div className="divider">
                 <div className="white">
-                    <span>ابدأ مراسلتنا الآن</span>
-                    <img src="/10.png" className="contact-illustration" alt=""/>
+                    <AnimatedTopToBottom>
+                        <span>ابدأ مراسلتنا الآن</span>
+                        <img src="/10.png" className="contact-illustration" alt=""/>
+                    </AnimatedTopToBottom>
                 </div>
             </div>
             </div>
+        <AnimatedTopToBottom classname="contact-container">
+            <div>
+                <h1 className="contact-title">تواصل معنا</h1>
+                <p className="contact-desc">
+                يسعدنا استقبال استفساراتكم واقتراحاتكم حول منصة خدمتي الإلكترونية. 
+                من خلال هذا النموذج يمكنك إرسال ملاحظاتك أو أفكارك لتطوير الموقع 
+                وجعل الخدمات الحكومية أسهل وأوضح للجميع.
+                </p>
 
-      <div className="contact-container">
-        <h1 className="contact-title">تواصل معنا</h1>
-        <p className="contact-desc">
-          يسعدنا استقبال استفساراتكم واقتراحاتكم حول منصة خدمتي الإلكترونية. 
-          من خلال هذا النموذج يمكنك إرسال ملاحظاتك أو أفكارك لتطوير الموقع 
-          وجعل الخدمات الحكومية أسهل وأوضح للجميع.
-        </p>
+                <form className="contact-form" onSubmit={handleSubmit}>
+                <div className="form-row">
+                    <input
+                    type="text"
+                    name="name"
+                    placeholder="الاسم الكامل"
+                    required
+                    />
+                    <input
+                    type="email"
+                    name="email"
+                    placeholder="البريد الإلكتروني"
+                    required
+                    />
+                </div>
 
-        <form className="contact-form" onSubmit={handleSubmit}>
-          <div className="form-row">
-            <input
-              type="text"
-              name="name"
-              placeholder="الاسم الكامل"
-              required
-            />
-            <input
-              type="email"
-              name="email"
-              placeholder="البريد الإلكتروني"
-              required
-            />
-          </div>
+                <input
+                    type="text"
+                    name="subject"
+                    placeholder="موضوع الرسالة (مثال: اقتراح خدمة جديدة)"
+                    required
+                />
 
-          <input
-            type="text"
-            name="subject"
-            placeholder="موضوع الرسالة (مثال: اقتراح خدمة جديدة)"
-            required
-          />
+                <select name="type" defaultValue="" required>
+                    <option value="" disabled>
+                    اختر نوع الرسالة
+                    </option>
+                    <option value="suggestion">اقتراح تحسين</option>
+                    <option value="bug">الإبلاغ عن مشكلة</option>
+                    <option value="service-request">طلب إضافة خدمة</option>
+                    <option value="other">أخرى</option>
+                </select>
 
-          <select name="type" defaultValue="" required>
-            <option value="" disabled>
-              اختر نوع الرسالة
-            </option>
-            <option value="suggestion">اقتراح تحسين</option>
-            <option value="bug">الإبلاغ عن مشكلة</option>
-            <option value="service-request">طلب إضافة خدمة</option>
-            <option value="other">أخرى</option>
-          </select>
+                <textarea
+                    name="message"
+                    placeholder="اكتب رسالتك هنا بالتفصيل..."
+                    required
+                ></textarea>
 
-          <textarea
-            name="message"
-            placeholder="اكتب رسالتك هنا بالتفصيل..."
-            required
-          ></textarea>
-
-          <button
-            type="submit"
-            disabled={status === "loading"}
-            className={status === "loading" ? "btn-loading" : ""}
-          >
-            {status === "loading" ? "جاري الإرسال..." : "إرسال الرسالة"}
-          </button>
-        </form>
-      </div>
+                <button
+                    type="submit"
+                    disabled={status === "loading"}
+                    className={status === "loading" ? "btn-loading" : ""}
+                >
+                    {status === "loading" ? "جاري الإرسال..." : "إرسال الرسالة"}
+                </button>
+                </form>
+            </div>
+        </AnimatedTopToBottom>
     </div>
     {status !== "idle" && (
         <div className="status-overlay">

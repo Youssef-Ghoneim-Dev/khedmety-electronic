@@ -25,7 +25,7 @@ mark {
   gap: 10px;
 }
 .search-input {
-  width: 80%;
+  width: 100%;
   max-width: 500px;
   height: 45px;
   padding: 10px 15px;
@@ -41,14 +41,22 @@ mark {
   border-color: #3871c1;
   box-shadow: 0 0 5px #3871c180;
 }
-.search-title {
+.width {
   width: 700px;
   max-width: 90%;
   text-align: center;
+  margin-bottom: 10px;
+}
+.width-input {
+  width: 80%;
+  max-width: 500px !important;
+}
+.search-title {
+  width: 100%;
   font-size: 30px;
   line-height: 40px;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin: 0;
 }
 .container.w-75 {
   max-width: 90%;

@@ -2,7 +2,8 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import "../style/CategoriesPreview.css";
 import { Icon } from '@iconify/react'; 
-
+import AnimatedLeftToRight from "../Animated/AnimatedLeftToRight"
+import AnimatedRightToLeft from "../Animated/AnimatedRightToLeft"
 export const categories = [
   { id: 1, title: "الهوية والوثائق", icon: "mdi:id-card" },
   { id: 2, title: "السفر والجوازات", icon: "mdi:passport" },
@@ -24,25 +25,29 @@ function CategoriesPreview() {
     }
   return (
     <div className="categories-section">
-      <h2 className="categories-title">استكشف الفصول</h2>
+    <AnimatedRightToLeft>
+        <h2 className="categories-title">استكشف الفصول</h2>
+    </AnimatedRightToLeft>
       <div className="categories-flex">
-        {categories.map((cat, index) => (
-          <div
-            key={cat.id}
-            className={`category-card ${index % 2 === 0 ? "white-card" : "gray-card"}`}
-          >
-            <div className="category-icon">
-              <Icon icon={cat.icon} width="50" height="50" />
-            </div>
-            <h3 className="category-name">{cat.title}</h3>
-            <button
-              className="category-btn"
-              onClick={() => onclickbtn(cat.title)}
+        <AnimatedLeftToRight stagger={0.4}>
+            {categories.map((cat, index) => (
+            <div
+                key={cat.id}
+                className={`category-card ${index % 2 === 0 ? "white-card" : "gray-card"}`}
             >
-              عرض الخدمات
-            </button>
-          </div>
-        ))}
+                <div className="category-icon">
+                <Icon icon={cat.icon} width="50" height="50" />
+                </div>
+                <h3 className="category-name">{cat.title}</h3>
+                <button
+                className="category-btn"
+                onClick={() => onclickbtn(cat.title)}
+                >
+                عرض الخدمات
+                </button>
+            </div>
+            ))}
+        </AnimatedLeftToRight>
       </div>
     </div>
   );

@@ -3,6 +3,9 @@ import React, { useState } from 'react';
 import electronicServices from "../data/ServiceData";
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
+import AnimatedTopToBottom from "../Animated/AnimatedTopToBottom";
+import AnimatedBottomToTop from "../Animated/AnimatedBottomToTop"
+import AnimatedLeftToRight from "../Animated/AnimatedLeftToRight"
 function ServiceDetails() {
         const location = useLocation();
     useEffect(() => {
@@ -21,15 +24,20 @@ function ServiceDetails() {
     return (
         <div className="w-100">
             <div className="search-bar-container">
-                <h3 className="search-title">هنا تجد كل الخدمات الإلكترونية، بالإضافة إلى الخدمات الرقمية والاونلاين، مع توضيح كافة التفاصيل</h3>
-                <div className="search-input-div">
+                <AnimatedTopToBottom classname="width">
+                        <h3 className="search-title">هنا تجد كل الخدمات الإلكترونية، بالإضافة إلى الخدمات الرقمية والاونلاين، مع توضيح كافة التفاصيل</h3>
+                </AnimatedTopToBottom>
+                <div  className="search-input-div">
+                <AnimatedBottomToTop classname="width-input">
                     <input
                         type="text"
                         className="search-input"
                         placeholder="... ابحث عن الخدمة التي تحتاجها"
                         value={searchQueryElectronics}
                         onChange={e => setSearchQueryElectronics(e.target.value)}
-                    />
+                        />
+                </AnimatedBottomToTop>
+                <AnimatedLeftToRight>
                     <div className="btn-group" dir="rtl">
                         <button type="button" className="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                             {value}
@@ -49,6 +57,7 @@ function ServiceDetails() {
                             ))}
                         </ul>
                     </div>
+                </AnimatedLeftToRight>
                 </div>
             </div>
             <ServiceDetailsComp thevalue={value} query={searchQueryElectronics} />

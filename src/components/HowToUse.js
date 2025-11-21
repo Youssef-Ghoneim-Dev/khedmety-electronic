@@ -1,6 +1,8 @@
 import React from "react";
 import "../style/HowToUse.css";
 import { Icon } from "@iconify/react";
+import AnimatedTopToBottom from "../Animated/AnimatedTopToBottom";
+import AnimatedBottomToTop from "../Animated/AnimatedBottomToTop";
 
 const steps = [
   { id: 1, title: "اختر نوع الخدمة", icon: "bxs:search" },
@@ -12,8 +14,11 @@ const steps = [
 function HowToUse() {
   return (
     <div className="how-section">
-      <h2 className="how-title">طريقة استخدام الموقع</h2>
+      <AnimatedTopToBottom>
+        <h2 className="how-title">طريقة استخدام الموقع</h2>
+      </AnimatedTopToBottom>
       <div className="how-steps">
+        <AnimatedBottomToTop>
         {steps.map((step, index) => (
           <div
             key={step.id}
@@ -27,6 +32,7 @@ function HowToUse() {
             <p className="how-desc">{step.title}</p>
           </div>
         ))}
+        </AnimatedBottomToTop>
       </div>
     </div>
   );

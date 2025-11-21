@@ -5,6 +5,7 @@
   justify-content: space-between;
   align-items: center;
   max-width: 100%;
+  overflow-x: hidden;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
@@ -49,17 +50,21 @@ body {
   margin: 0;
   min-height: 100vh;
   font-family: "InderRegular" !important;
+  user-select: none;
 }
 ::-webkit-scrollbar {
   width: 5px;
+  height: 5px;
 }
 ::-webkit-scrollbar-thumb {
   width: 5px;
+  height: 5px;
   background-color: #3871c1;
   border-radius: 5px;
 }
 ::-webkit-scrollbar-track {
   width: 5px;
+  height: 5px;
   background-color: #f9f9f9;
 }
 .btn-primary {
@@ -81,10 +86,9 @@ body {
 }
 .dropdown-menu {
   text-align: right !important;
-  height: 40vh !important;
-  overflow-y: scroll;
-  inset: auto !important;
-  direction: ltr !important;
+  max-height: 40vh;
+  overflow-y: auto;
+  direction: rtl !important;
 }
 .dropdown-item {
   color: #3871c1 !important;
