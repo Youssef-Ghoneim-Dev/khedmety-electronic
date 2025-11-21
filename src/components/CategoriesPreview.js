@@ -28,8 +28,8 @@ function CategoriesPreview() {
     <AnimatedRightToLeft>
         <h2 className="categories-title">استكشف الفصول</h2>
     </AnimatedRightToLeft>
-      <div className="categories-flex">
-        <AnimatedLeftToRight stagger={0.4}>
+    <div className="categories-flex">
+            <AnimatedLeftToRight classname="mediawidth" stagger={0.4}>
             {categories.map((cat, index) => (
             <div
                 key={cat.id}
@@ -47,8 +47,9 @@ function CategoriesPreview() {
                 </button>
             </div>
             ))}
-        </AnimatedLeftToRight>
-      </div>
+            </AnimatedLeftToRight>
+    </div>
+
     </div>
   );
 }

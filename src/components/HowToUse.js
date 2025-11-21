@@ -18,19 +18,15 @@ function HowToUse() {
         <h2 className="how-title">طريقة استخدام الموقع</h2>
       </AnimatedTopToBottom>
       <div className="how-steps">
-        <AnimatedBottomToTop>
+        <AnimatedBottomToTop classname="how-card">
         {steps.map((step, index) => (
-          <div
-            key={step.id}
-            className="how-card"
-            style={{ animationDelay: `${index * 0.2}s` }}
-          >
+          <>
             <div className="how-number">{step.id}</div>
             <div className="how-icon">
               <Icon icon={step.icon} ></Icon>
             </div>
             <p className="how-desc">{step.title}</p>
-          </div>
+          </>
         ))}
         </AnimatedBottomToTop>
       </div>

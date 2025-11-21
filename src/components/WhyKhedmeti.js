@@ -21,7 +21,6 @@ function WhyKhedmeti() {
                 <div
                     key={feature.id}
                     className="why-card"
-                    style={{ animationDelay: `${index * 0.2}s` }}
                 >
                     <div className="why-icon">
                     <Icon icon={feature.icon} ></Icon>

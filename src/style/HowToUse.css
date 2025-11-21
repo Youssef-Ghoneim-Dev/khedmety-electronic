@@ -19,17 +19,17 @@
 }
 
 .how-card {
-  width: 220px;
+  width: 280px;
   background-color: #fff;
   border-radius: 20px;
   padding: 25px 20px;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
-  transform: translateY(15px);
-  transition: transform 0.3s ease;
+  transform: translateY(15px) !important;
+  transition: transform 0.3s ease !important;
 }
 
 .how-card:hover {
-  transform: translateY(-1px) scale(1.03);
+  transform: translateY(-1px) scale(1.03) !important;
 }
 
 .how-number {
@@ -40,19 +40,18 @@
 }
 
 .how-icon {
-  font-size: 40px;
+  font-size: 50px;
   color: #3871c1;
   margin-bottom: 15px;
 }
 
 .how-desc {
-  font-size: 16px;
+  font-size: 24px;
   color: #555;
 }
 
 @media (max-width: 768px) {
   .how-card {
-    width: 180px;
     padding: 20px 15px;
   }
   .how-title {

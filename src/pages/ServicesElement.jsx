@@ -2,6 +2,9 @@ import { useParams } from 'react-router-dom';
 import electronicServices from "../data/ServiceData";
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
+import AnimatedLeftToRight from "../Animated/AnimatedLeftToRight"
+import AnimatedRightToLeft from "../Animated/AnimatedRightToLeft"
+import AnimatedBottomToTop from "../Animated/AnimatedBottomToTop"
 function ServiceDetailsElement() {
         const location = useLocation();
     useEffect(() => {
@@ -13,8 +16,11 @@ function ServiceDetailsElement() {
   return (
     <div className='w-100'>
         <div className="container mt-4" dir="rtl">
+            <AnimatedRightToLeft>
             <h2 className="text-center fs-2 fw-bolder mt-4 small-title">{service.title}</h2>
+            </AnimatedRightToLeft>
             <div className="accordion mb-5 mt-5" id={`accordion${service.id}`}>
+                <AnimatedLeftToRight stagger={0.4}>
                 <div className="accordion-item">
                     <h2 className="accordion-header" id={`headingDesc${service.id}`}>
                         <button
@@ -165,16 +171,21 @@ function ServiceDetailsElement() {
                         </div>
                     </div>
                 </div>
+                </AnimatedLeftToRight>
             </div>
             <div>
-                <h2 className='mb-5 small-title'>فيديو توضيحي لطريقة تسجيل الدخول علي منصة مصر الرقمية :</h2>
-                <div className="ratio ratio-16x9 mb-5">
-                    <iframe
-                        src="https://www.youtube.com/embed/Ku8oQWbyBNg?si=nZHZkjwokIAA5A2O"
-                        title="YouTube video"
-                        allowFullScreen
-                    ></iframe>
-                </div>
+                <AnimatedRightToLeft>
+                    <h2 className='mb-5 small-title'>فيديو توضيحي لطريقة تسجيل الدخول علي منصة مصر الرقمية :</h2>
+                </AnimatedRightToLeft>
+                <AnimatedBottomToTop>
+                    <div className="ratio ratio-16x9 mb-5">
+                        <iframe
+                            src="https://www.youtube.com/embed/Ku8oQWbyBNg?si=nZHZkjwokIAA5A2O"
+                            title="YouTube video"
+                            allowFullScreen
+                        ></iframe>
+                    </div>
+                </AnimatedBottomToTop>
             </div>
         </div>
     </div>
