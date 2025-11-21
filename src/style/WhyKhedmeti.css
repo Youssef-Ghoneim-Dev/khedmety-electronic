@@ -24,12 +24,12 @@
   padding: 35px 25px;
   border-radius: 20px;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
-  transform: translateY(30px) !important;
+  transform: translateY(15px) !important;
   transition: transform 0.3s ease, box-shadow 0.3s ease !important;
 }
 
 .why-card:hover {
-  transform: translateY(-5px) scale(1.03) !important;
+  transform: translateY(-1px) scale(1.03) !important;
   box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
 }
 
