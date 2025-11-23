@@ -73,7 +73,6 @@ mark {
   }
 
   .search-input {
-    width: 60%;
     font-size: 16px;
   }
   .small-title {
@@ -100,7 +99,6 @@ mark {
   }
 
   .search-input {
-    width: 80%;
     font-size: 15px;
   }
   .container.w-75 {
@@ -131,7 +129,6 @@ mark {
   }
 
   .search-input {
-    width: 95%;
     font-size: 14px;
     padding: 8px 12px;
   }
