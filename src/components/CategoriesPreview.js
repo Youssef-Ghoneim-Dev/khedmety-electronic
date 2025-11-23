@@ -29,15 +29,13 @@ function CategoriesPreview() {
         <h2 className="categories-title">استكشف الفصول</h2>
     </AnimatedRightToLeft>
     <div className="categories-flex">
-            {categories.map((cat, index) => (
+            {categories.map((cat) => (
                 <AnimatedLeftToRight 
                     key={cat.id} 
                     stagger={0.8} 
                     className="mediawidth"
                 >
-                    <div
-                        className={`category-card ${index % 2 === 0 ? "white-card" : "gray-card"}`}
-                    >
+                    <div className="category-card">
                         <div className="category-icon">
                             <Icon icon={cat.icon} width="50" height="50" />
                         </div>

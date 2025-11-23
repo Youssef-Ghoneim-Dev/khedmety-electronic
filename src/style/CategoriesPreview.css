@@ -18,6 +18,7 @@
 }
 
 .category-card {
+  background-color: #ffffff;
   width: 100%;
   padding: 40px 25px;
   border-radius: 20px;
@@ -35,24 +36,6 @@
   box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
 }
 
-.white-card {
-  background-color: #ffffff;
-}
-
-.gray-card {
-  background-color: #242424;
-  color: white;
-}
-.gray-card .category-icon {
-  color: #ffffff;
-}
-.gray-card .category-btn {
-  background-color: #ffffff;
-  color: #000;
-}
-.gray-card .category-btn:hover {
-  background-color: #cfdfe6;
-}
 .category-icon {
   font-size: 50px;
   color: #3871c1;
