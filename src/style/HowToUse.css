@@ -19,15 +19,18 @@
 }
 
 .how-card {
-  width: 280px;
+  width: 100%;
   background-color: #fff;
   border-radius: 20px;
   padding: 25px 20px;
+  box-sizing: border-boxz;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
   transform: translateY(15px) !important;
   transition: transform 0.3s ease !important;
 }
-
+.card-width {
+  width: 280px;
+}
 .how-card:hover {
   transform: translateY(-1px) scale(1.03) !important;
 }
@@ -60,9 +63,8 @@
 }
 
 @media (max-width: 480px) {
-  .how-card {
-    width: 100%;
-    max-width: 250px;
+  .card-width {
+    max-width: 300px;
   }
   .how-title {
     font-size: 26px;

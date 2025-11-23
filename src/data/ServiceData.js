@@ -34,7 +34,7 @@ const electronicServices = [
       "سيتم إرسال رسالة نصية عند تجهيز الشهادة أو شحنها بالبريد."
     ],
     link: "https://digital.gov.eg/services/birth-certificate",
-    location: "البوابة الإلكترونية لمصر الرقمية",
+    location: "منصة مصر الرقمية",
     categories: { domain: "الخدمات الرقمية", target: "مواطنون" }
   },
   {
@@ -149,7 +149,7 @@ const electronicServices = [
       "احتفظ برقم الطلب لتتبّع الحالة."
     ],
     link: "https://digital.gov.eg/services/divorce-certificate",
-    location: "البوابة الرقمية لمصر",
+    location: "منصة مصر الرقمية",
     categories: { domain: "الخدمات الرقمية", target: "مواطنون" }
   },
   {
@@ -261,7 +261,7 @@ const electronicServices = [
       "سوف يصلك رقم الطلب عبر رسالة نصية لتتبّع الحالة."
     ],
     link: "https://digital.gov.eg/services/id-replacement-damaged",
-    location: "البوابة الرقمية لمصر",
+    location: "منصة مصر الرقمية",
     categories: { domain: "الخدمات الرقمية", target: "مواطنون" }
   },
   {
@@ -304,7 +304,7 @@ const electronicServices = [
       "احتفظ برقم الطلب للمتابعة."
     ],
     link: "https://digital.gov.eg/services/birth-certificate-replace",
-    location: "البوابة الرقمية لمصر",
+    location: "منصة مصر الرقمية",
     categories: { domain: "الخدمات الرقمية", target: "مواطنون" }
   },
   {
@@ -411,7 +411,7 @@ const electronicServices = [
       "احتفظ برقم الطلب لمتابعة حالة التصحيح."
     ],
     link: "https://digital.gov.eg/services/birth-correction",
-    location: "البوابة الإلكترونية لمصر الرقمية",
+    location: "منصة مصر الرقمية",
     categories: { domain: "الخدمات الرقمية", target: "مواطنون" }
   },
   {
@@ -483,7 +483,7 @@ const electronicServices = [
     "احتفظ برقم الطلب لمتابعته."
   ],
   link: "https://digital.gov.eg/services/vehicle-license-renew",
-  location: "البوابة الرقمية لمصر",
+  location: "منصة مصر الرقمية",
   categories: { domain: "الخدمات الرقمية", target: "مالكو المركبات" }
 },
 {
@@ -546,7 +546,7 @@ const electronicServices = [
     "احتفظ برقم الطلب للمتابعة."
   ],
   link: "https://digital.gov.eg/services/driving-license-damaged",
-  location: "البوابة الرقمية لمصر",
+  location: "منصة مصر الرقمية",
   categories: { domain: "الخدمات الرقمية", target: "سائقون" }
 },
 {
@@ -606,7 +606,7 @@ const electronicServices = [
     "يمكنك سدادها مباشرة من نفس الصفحة."
   ],
   link: "https://digital.gov.eg/services/traffic-fines-inquiry",
-  location: "البوابة الرقمية لمصر",
+  location: "منصة مصر الرقمية",
   categories: { domain: "الخدمات الرقمية", target: "سائقون" }
 },
 {
@@ -722,7 +722,7 @@ const electronicServices = [
     "استلم البطاقة من مكتب التموين المحدد."
   ],
   link: "https://digital.gov.eg/services/ration-card-damaged",
-  location: "البوابة الرقمية لمصر",
+  location: "منصة مصر الرقمية",
   categories: { domain: "الخدمات الرقمية", target: "الأسر" }
 },
 {
@@ -767,7 +767,7 @@ const electronicServices = [
     "سيتم تحديث البطاقة خلال أيام."
   ],
   link: "https://digital.gov.eg/services/remove-ration-member",
-  location: "البوابة الرقمية لمصر",
+  location: "منصة مصر الرقمية",
   categories: { domain: "الخدمات الرقمية", target: "الأسر" }
 },
 {
@@ -828,7 +828,7 @@ const electronicServices = [
     "يمكنك طباعة البيانات للاحتفاظ بها."
   ],
   link: "https://digital.gov.eg/services/ration-balance",
-  location: "البوابة الرقمية لمصر",
+  location: "منصة مصر الرقمية",
   categories: { domain: "الخدمات الرقمية", target: "الأسر" }
 },
 {
@@ -922,7 +922,7 @@ const electronicServices = [
     "تابع الطلب من حسابك على الموقع."
   ],
   link: "https://digital.gov.eg/services/divorce-auth",
-  location: "البوابة الرقمية لمصر",
+  location: "منصة مصر الرقمية",
   categories: { domain: "الخدمات الرقمية", target: "المواطنون" }
 },
 {
@@ -1014,7 +1014,7 @@ const electronicServices = [
     "اختر مكتب الشهر العقاري لاستلام العقد الموثق."
   ],
   link: "https://digital.gov.eg/services/rent-auth",
-  location: "الشهر العقاري - منصة مصر الرقمية",
+  location: "منصة مصر الرقمية",
   categories: { domain: "الخدمات الرقمية", target: "ملاك العقارات" }
 },
 {
@@ -1074,7 +1074,7 @@ const electronicServices = [
     "حدد موعد استلام النسخة الموثقة."
   ],
   link: "https://digital.gov.eg/services/official-declaration",
-  location: "البوابة الرقمية لمصر",
+  location: "منصة مصر الرقمية",
   categories: { domain: "الخدمات الرقمية", target: "المواطنون" }
 },
 {
@@ -1357,7 +1357,7 @@ const electronicServices = [
     "ستصلك رسالة نصية عند جاهزية البطاقة للاستلام."
   ],
   link: "https://digital.gov.eg/services/healthcard-replacement",
-  location: "البوابة الرقمية لمصر",
+  location: "منصة مصر الرقمية",
   categories: { domain: "الخدمات الرقمية", target: "المواطنون" }
 },
 {
@@ -4638,7 +4638,7 @@ const electronicServices = [
     "راجع البيانات واضغط على (إرسال الطلب).",
     "ستصلك رسالة نصية تحتوي على موعد أول فحص وبيانات المركز."
   ],
-  link: "https://digital.gov.eg/services/chronic-disease-screening",
+  link: "https://wlms.smcegy.com/WLMSOnline/Online",
   location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الصحية", target: "المواطنون" }
 },
@@ -4660,7 +4660,7 @@ const electronicServices = [
     "راجع البيانات واضغط على (تأكيد الحجز).",
     "ستصلك رسالة تأكيد عبر SMS تحتوي على موعد ومكان التطعيم."
   ],
-  link: "https://digital.gov.eg/services/child-vaccine-appointment",
+  link: "https://wlms.smcegy.com/WLMSOnline/Online",
   location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الصحية", target: "الأسر" }
 },
@@ -4704,7 +4704,7 @@ const electronicServices = [
     "راجع البيانات واضغط على (إرسال الطلب).",
     "ستصلك رسالة نصية لتأكيد استلام الطلب وتحديد موعد الاستلام."
   ],
-  link: "https://digital.gov.eg/services/chronic-treatment-card",
+  link: "https://wlms.smcegy.com/WLMSOnline/Online",
   location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الصحية", target: "المواطنون" }
 },
@@ -4726,7 +4726,7 @@ const electronicServices = [
     "راجع البيانات واضغط على (تأكيد الطلب).",
     "ستصلك رسالة نصية تحتوي على رقم الطلب وموعد استلام البطاقة."
   ],
-  link: "https://digital.gov.eg/services/critical-treatment-card",
+  link: "https://wlms.smcegy.com/WLMSOnline/Online",
   location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الصحية", target: "المواطنون" }
 },
@@ -4748,7 +4748,7 @@ const electronicServices = [
     "راجع جميع البيانات واضغط على (إرسال الطلب).",
     "ستصلك رسالة نصية لتأكيد استلام الطلب وتحديد موعد الاستلام."
   ],
-  link: "https://digital.gov.eg/services/cancer-treatment-card",
+  link: "https://wlms.smcegy.com/WLMSOnline/Online",
   location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الصحية", target: "المرضى" }
 },
@@ -4770,7 +4770,7 @@ const electronicServices = [
     "راجع البيانات واضغط على (تأكيد الطلب).",
     "ستصلك رسالة نصية تحتوي على رقم الطلب وموعد الاستلام."
   ],
-  link: "https://digital.gov.eg/services/mental-health-treatment-card",
+  link: "https://wlms.smcegy.com/WLMSOnline/Online",
   location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الصحية", target: "المرضى" }
 },
@@ -4792,7 +4792,7 @@ const electronicServices = [
     "راجع البيانات واضغط على (إرسال الطلب).",
     "ستصلك رسالة نصية تحتوي على رقم الطلب وموعد استلام البطاقة."
   ],
-  link: "https://digital.gov.eg/services/physical-disability-treatment-card",
+  link: "https://wlms.smcegy.com/WLMSOnline/Online",
   location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الصحية", target: "المرضى" }
 },
@@ -4814,7 +4814,7 @@ const electronicServices = [
     "راجع البيانات واضغط على (تأكيد الطلب).",
     "ستصلك رسالة نصية تحتوي على رقم الطلب وموعد استلام البطاقة."
   ],
-  link: "https://digital.gov.eg/services/visual-disability-treatment-card",
+  link: "https://wlms.smcegy.com/WLMSOnline/Online",
   location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الصحية", target: "المرضى" }
 },
@@ -4836,7 +4836,7 @@ const electronicServices = [
     "راجع البيانات واضغط على (إرسال الطلب).",
     "ستصلك رسالة نصية تحتوي على رقم الطلب وموعد استلام البطاقة."
   ],
-  link: "https://digital.gov.eg/services/hearing-disability-treatment-card",
+  link: "https://wlms.smcegy.com/WLMSOnline/Online",
   location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الصحية", target: "المرضى" }
 },
@@ -4863,7 +4863,7 @@ const electronicServices = [
     "ستصلك رسالة SMS على رقم الهاتف المسجل تحتوي على رقم الطلب وإرشادات إضافية.",
     "يمكنك متابعة حالة الطلب عبر الزر في الأسفل لذلك في بوابة وزارة الصحة."
   ],
-  link: "https://digital.gov.eg/services/mental-disability-treatment-card",
+  link: "https://wlms.smcegy.com/WLMSOnline/Online",
   location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الصحية", target: "المرضى" }
 },
@@ -4890,7 +4890,7 @@ const electronicServices = [
     "ستستلم رسالة نصية على رقم الهاتف المسجل تحتوي على رقم الطلب وإرشادات إضافية حول متابعة الحالة.",
     "يمكنك متابعة حالة الطلب من خلال الرابط المخصص على بوابة وزارة الصحة."
   ],
-  link: "https://digital.gov.eg/services/multiple-disability-treatment-card",
+  link: "https://wlms.smcegy.com/WLMSOnline/Online",
   location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الصحية", target: "المرضى" }
 },
@@ -4917,7 +4917,7 @@ const electronicServices = [
     "ستصلك رسالة SMS على الرقم المسجل تتضمن رقم الطلب وإرشادات متابعة الطلب.",
     "يمكنك متابعة حالة الطلب من خلال الزر في الأسفل لذلك على بوابة وزارة الصحة."
   ],
-  link: "https://digital.gov.eg/services/emergency-treatment-card",
+  link: "https://wlms.smcegy.com/WLMSOnline/Online",
   location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الصحية", target: "المرضى" }
 },
@@ -4944,7 +4944,7 @@ const electronicServices = [
     "ستستلم رسالة نصية على رقم الهاتف المسجل تحتوي على رقم الطلب وإرشادات متابعة الطلب.",
     "يمكنك متابعة حالة الطلب عبر الزر في الأسفل لذلك على بوابة وزارة الصحة."
   ],
-  link: "https://digital.gov.eg/services/genetic-disease-treatment-card",
+  link: "https://wlms.smcegy.com/WLMSOnline/Online",
   location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الصحية", target: "المرضى" }
 },
@@ -4972,7 +4972,7 @@ const electronicServices = [
     "ستستلم رسالة SMS على الرقم المسجل تحتوي على رقم الطلب وإرشادات متابعة الطلب.",
     "يمكنك متابعة حالة الطلب عبر الزر في الأسفل لذلك على بوابة وزارة الصحة."
   ],
-  link: "https://digital.gov.eg/services/child-chronic-treatment-card",
+  link: "https://wlms.smcegy.com/WLMSOnline/Online",
   location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الصحية", target: "الأطفال" }
 },
@@ -4999,7 +4999,7 @@ const electronicServices = [
     "ستستلم رسالة SMS على الرقم المسجل تحتوي على رقم الطلب وإرشادات متابعة الطلب.",
     "يمكنك متابعة حالة الطلب عبر الزر في الأسفل لذلك على بوابة وزارة الصحة."
   ],
-  link: "https://digital.gov.eg/services/health-cards",
+  link: "https://wlms.smcegy.com/WLMSOnline/Online",
   location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الصحية", target: "البالغين" }
 },
@@ -5027,7 +5027,7 @@ const electronicServices = [
     "ستستلم رسالة SMS على الرقم المسجل تحتوي على رقم الطلب وإرشادات متابعة الطلب.",
     "يمكنك متابعة حالة الطلب من خلال الرابط المخصص على بوابة وزارة الصحة."
   ],
-  link: "https://digital.gov.eg/services/health-cards",
+  link: "https://wlms.smcegy.com/WLMSOnline/Online",
   location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الصحية", target: "الأطفال" }
 },
@@ -5054,7 +5054,7 @@ const electronicServices = [
     "ستستلم رسالة SMS على الرقم المسجل تحتوي على رقم الطلب وإرشادات متابعة الطلب.",
     "يمكنك متابعة حالة الطلب عبر الزر في الأسفل لذلك على بوابة وزارة الصحة."
     ],
-  link: "https://digital.gov.eg/services/health-cards",
+  link: "https://wlms.smcegy.com/WLMSOnline/Online",
   location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الصحية", target: "البالغين" }
 },
@@ -5082,7 +5082,7 @@ const electronicServices = [
     "ستستلم رسالة SMS على الرقم المسجل تحتوي على رقم الطلب وإرشادات متابعة الطلب.",
     "يمكنك متابعة حالة الطلب عبر الزر في الأسفل لذلك على بوابة وزارة الصحة."
   ],
-  link: "https://digital.gov.eg/services/health-cards",
+  link: "https://wlms.smcegy.com/WLMSOnline/Online",
   location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الصحية", target: "الأطفال" }
 },
@@ -5110,7 +5110,7 @@ const electronicServices = [
     "ستستلم رسالة SMS على الرقم المسجل تحتوي على رقم الطلب وإرشادات متابعة الطلب.",
     "يمكنك متابعة حالة الطلب عبر الزر في الأسفل لذلك على بوابة وزارة الصحة."
   ],
-  link: "https://digital.gov.eg/services/health-cards",
+  link: "https://wlms.smcegy.com/WLMSOnline/Online",
   location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الصحية", target: "الأطفال" }
 },
@@ -5137,7 +5137,7 @@ const electronicServices = [
     "ستصلك رسالة SMS على الرقم المسجل تحتوي على رقم الطلب وإرشادات متابعة الطلب.",
     "يمكنك متابعة حالة الطلب عبر الرابط المخصص على بوابة وزارة الصحة."
   ],
-  link: "https://digital.gov.eg/services/health-cards",
+  link: "https://wlms.smcegy.com/WLMSOnline/Online",
   location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الصحية", target: "البالغين" }
 },
@@ -5165,7 +5165,7 @@ const electronicServices = [
     "ستستلم رسالة SMS على الرقم المسجل تحتوي على رقم الطلب وإرشادات متابعة الطلب.",
     "يمكنك متابعة حالة الطلب عبر الزر في الأسفل لذلك على بوابة وزارة الصحة."
   ],
-  link: "https://digital.gov.eg/services/health-cards",
+  link: "https://wlms.smcegy.com/WLMSOnline/Online",
   location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الصحية", target: "الأطفال" }
 },
@@ -5192,7 +5192,7 @@ const electronicServices = [
     "ستصلك رسالة SMS على الرقم المسجل تحتوي على رقم الطلب وإرشادات متابعة الطلب.",
     "يمكنك متابعة حالة الطلب عبر الرابط المخصص على بوابة وزارة الصحة."
   ],
-  link: "https://digital.gov.eg/services/health-cards",
+  link: "https://wlms.smcegy.com/WLMSOnline/Online",
   location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الصحية", target: "البالغين" }
 },
@@ -5220,7 +5220,7 @@ const electronicServices = [
     "ستستلم رسالة SMS على الرقم المسجل تحتوي على رقم الطلب وإرشادات متابعة الطلب.",
     "يمكنك متابعة حالة الطلب عبر الزر في الأسفل لذلك على بوابة وزارة الصحة."
   ],
-  link: "https://digital.gov.eg/services/health-cards",
+  link: "https://wlms.smcegy.com/WLMSOnline/Online",
   location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الصحية", target: "الأطفال" }
 },
@@ -5247,7 +5247,7 @@ const electronicServices = [
     "ستصلك رسالة SMS على الرقم المسجل تحتوي على رقم الطلب وإرشادات متابعة الطلب.",
     "يمكنك متابعة حالة الطلب عبر الرابط المخصص على بوابة وزارة الصحة."
   ],
-  link: "https://digital.gov.eg/services/health-cards",
+  link: "https://wlms.smcegy.com/WLMSOnline/Online",
   location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الصحية", target: "البالغين" }
 },
@@ -5275,7 +5275,7 @@ const electronicServices = [
     "ستستلم رسالة SMS على الرقم المسجل تحتوي على رقم الطلب وإرشادات متابعة الطلب.",
     "يمكنك متابعة حالة الطلب عبر الزر في الأسفل لذلك على بوابة وزارة الصحة."
   ],
-  link: "https://digital.gov.eg/services/health-cards",
+  link: "https://wlms.smcegy.com/WLMSOnline/Online",
   location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الصحية", target: "الأطفال" }
 },
@@ -5302,7 +5302,7 @@ const electronicServices = [
     "ستصلك رسالة SMS على الرقم المسجل تحتوي على رقم الطلب وإرشادات متابعة الطلب.",
     "يمكنك متابعة حالة الطلب عبر الرابط المخصص على بوابة وزارة الصحة."
   ],
-  link: "https://digital.gov.eg/services/health-cards",
+  link: "https://wlms.smcegy.com/WLMSOnline/Online",
   location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الصحية", target: "البالغين" }
 },
@@ -5330,7 +5330,7 @@ const electronicServices = [
     "ستستلم رسالة SMS على الرقم المسجل تحتوي على رقم الطلب وإرشادات متابعة الطلب.",
     "يمكنك متابعة حالة الطلب عبر الرابط المخصص على بوابة وزارة الصحة."
   ],
-  link: "https://digital.gov.eg/services/health-cards",
+  link: "https://wlms.smcegy.com/WLMSOnline/Online",
   location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الصحية", target: "الأطفال" }
 },
@@ -5357,7 +5357,7 @@ const electronicServices = [
     "ستصلك رسالة SMS على الرقم المسجل تحتوي على رقم الطلب وإرشادات متابعة الطلب.",
     "يمكنك متابعة حالة الطلب عبر الرابط المخصص على بوابة وزارة الصحة."
   ],
-  link: "https://digital.gov.eg/services/health-cards",
+  link: "https://wlms.smcegy.com/WLMSOnline/Online",
   location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الصحية", target: "كبار السن" }
 },
@@ -5384,7 +5384,7 @@ const electronicServices = [
     "ستصلك رسالة SMS على الرقم المسجل تحتوي على رقم الطلب وإرشادات متابعة الطلب.",
     "يمكنك متابعة حالة الطلب عبر الرابط المخصص على بوابة وزارة الصحة."
   ],
-  link: "https://digital.gov.eg/services/health-cards",
+  link: "https://wlms.smcegy.com/WLMSOnline/Online",
   location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الصحية", target: "كبار السن" }
 },
@@ -5411,7 +5411,7 @@ const electronicServices = [
     "ستصلك رسالة SMS على الرقم المسجل تحتوي على رقم الطلب وإرشادات متابعة الطلب.",
     "يمكنك متابعة حالة الطلب عبر الرابط المخصص على بوابة وزارة الصحة."
   ],
-  link: "https://digital.gov.eg/services/health-cards",
+  link: "https://wlms.smcegy.com/WLMSOnline/Online",
   location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الصحية", target: "كبار السن" }
 },
@@ -5438,7 +5438,7 @@ const electronicServices = [
     "ستصلك رسالة SMS على الرقم المسجل تحتوي على رقم الطلب وإرشادات متابعة الطلب.",
     "يمكنك متابعة حالة الطلب عبر الرابط المخصص على بوابة وزارة الصحة."
   ],
-  link: "https://digital.gov.eg/services/health-cards",
+  link: "https://wlms.smcegy.com/WLMSOnline/Online",
   location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الصحية", target: "كبار السن" }
 },
@@ -5465,7 +5465,7 @@ const electronicServices = [
     "ستصلك رسالة SMS على الرقم المسجل تحتوي على رقم الطلب وإرشادات متابعة الطلب.",
     "يمكنك متابعة حالة الطلب عبر الرابط المخصص على بوابة وزارة الصحة."
     ],
-  link: "https://digital.gov.eg/services/health-cards",
+  link: "https://wlms.smcegy.com/WLMSOnline/Online",
   location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الصحية", target: "البالغين" }
 },
@@ -5493,7 +5493,7 @@ const electronicServices = [
     "ستستلم رسالة SMS على الرقم المسجل تحتوي على رقم الطلب وإرشادات متابعة الطلب.",
     "يمكنك متابعة حالة الطلب عبر الرابط المخصص على بوابة وزارة الصحة."
   ],
-  link: "https://digital.gov.eg/services/health-cards",
+  link: "https://wlms.smcegy.com/WLMSOnline/Online",
   location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الصحية", target: "الأطفال" }
 },
@@ -5520,7 +5520,7 @@ const electronicServices = [
     "ستصلك رسالة SMS على الرقم المسجل تحتوي على رقم الطلب وإرشادات متابعة الطلب.",
     "يمكنك متابعة حالة الطلب عبر الرابط المخصص على بوابة وزارة الصحة."
   ],
-  link: "https://digital.gov.eg/services/health-cards",
+  link: "https://wlms.smcegy.com/WLMSOnline/Online",
   location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الصحية", target: "كبار السن" }
 },
@@ -5548,7 +5548,7 @@ const electronicServices = [
     "ستصلك رسالة SMS على الرقم المسجل تحتوي على رقم الطلب وإرشادات متابعة الطلب.",
     "يمكنك متابعة حالة الطلب عبر الرابط المخصص على بوابة وزارة الصحة."
   ],
-  link: "https://digital.gov.eg/services/health-cards",
+  link: "https://wlms.smcegy.com/WLMSOnline/Online",
   location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الصحية", target: "الأطفال" }
 },
@@ -5575,7 +5575,7 @@ const electronicServices = [
     "ستصلك رسالة SMS على الرقم المسجل تحتوي على رقم الطلب وإرشادات متابعة الطلب.",
     "يمكنك متابعة حالة الطلب عبر الرابط المخصص على بوابة وزارة الصحة."
   ],
-  link: "https://digital.gov.eg/services/health-cards",
+  link: "https://wlms.smcegy.com/WLMSOnline/Online",
   location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الصحية", target: "البالغين" }
 },
@@ -5603,7 +5603,7 @@ const electronicServices = [
     "ستستلم رسالة SMS على الرقم المسجل تحتوي على رقم الطلب وإرشادات متابعة الطلب.",
     "يمكنك متابعة حالة الطلب عبر الرابط المخصص على بوابة وزارة الصحة."
   ],
-  link: "https://digital.gov.eg/services/health-cards",
+  link: "https://wlms.smcegy.com/WLMSOnline/Online",
   location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الصحية", target: "الأطفال" }
 },
@@ -5630,7 +5630,7 @@ const electronicServices = [
     "ستصلك رسالة SMS على الرقم المسجل تحتوي على رقم الطلب وإرشادات متابعة الطلب.",
     "يمكنك متابعة حالة الطلب عبر الرابط المخصص على بوابة وزارة الصحة."
   ],
-  link: "https://digital.gov.eg/services/health-cards",
+  link: "https://wlms.smcegy.com/WLMSOnline/Online",
   location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الصحية", target: "البالغين" }
 },
@@ -5657,7 +5657,7 @@ const electronicServices = [
     "ستصلك رسالة SMS على الرقم المسجل تحتوي على رقم الطلب وإرشادات متابعة الطلب.",
     "يمكنك متابعة حالة الطلب عبر الرابط المخصص على بوابة وزارة الصحة."
   ],
-  link: "https://digital.gov.eg/services/health-cards",
+  link: "https://wlms.smcegy.com/WLMSOnline/Online",
   location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الصحية", target: "كبار السن" }
 },
@@ -5685,7 +5685,7 @@ const electronicServices = [
     "ستصلك رسالة SMS على الرقم المسجل تحتوي على رقم الطلب وإرشادات متابعة الطلب.",
     "يمكنك متابعة حالة الطلب عبر الرابط المخصص على بوابة وزارة الصحة."
   ],
-  link: "https://digital.gov.eg/services/health-cards",
+  link: "https://wlms.smcegy.com/WLMSOnline/Online",
   location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الصحية", target: "الأطفال" }
 },
@@ -5712,7 +5712,7 @@ const electronicServices = [
     "ستصلك رسالة SMS على الرقم المسجل تحتوي على رقم الطلب وإرشادات متابعة الطلب.",
     "يمكنك متابعة حالة الطلب عبر الرابط المخصص على بوابة وزارة الصحة."
   ],
-  link: "https://digital.gov.eg/services/health-cards",
+  link: "https://wlms.smcegy.com/WLMSOnline/Online",
   location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الصحية", target: "البالغين" }
 },
@@ -5740,7 +5740,7 @@ const electronicServices = [
     "ستستلم رسالة SMS على الرقم المسجل تحتوي على رقم الطلب وإرشادات متابعة الطلب.",
     "يمكنك متابعة حالة الطلب عبر الرابط المخصص على بوابة وزارة الصحة."
   ],
-  link: "https://digital.gov.eg/services/health-cards",
+  link: "https://wlms.smcegy.com/WLMSOnline/Online",
   location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الصحية", target: "الأطفال" }
 },
@@ -5767,7 +5767,7 @@ const electronicServices = [
     "ستصلك رسالة SMS على الرقم المسجل تحتوي على رقم الطلب وإرشادات متابعة الطلب.",
     "يمكنك متابعة حالة الطلب عبر الرابط المخصص على بوابة وزارة الصحة."
   ],
-  link: "https://digital.gov.eg/services/health-cards",
+  link: "https://wlms.smcegy.com/WLMSOnline/Online",
   location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الصحية", target: "البالغين" }
 },
@@ -5795,7 +5795,7 @@ const electronicServices = [
     "ستستلم رسالة SMS على الرقم المسجل تحتوي على رقم الطلب وإرشادات متابعة الطلب.",
     "يمكنك متابعة حالة الطلب عبر الرابط المخصص على بوابة وزارة الصحة."
   ],
-  link: "https://digital.gov.eg/services/health-cards",
+  link: "https://wlms.smcegy.com/WLMSOnline/Online",
   location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الصحية", target: "الأطفال" }
 },
@@ -5822,7 +5822,7 @@ const electronicServices = [
     "ستصلك رسالة SMS على الرقم المسجل تحتوي على رقم الطلب وإرشادات متابعة الطلب.",
     "يمكنك متابعة حالة الطلب عبر الرابط المخصص على بوابة وزارة الصحة."
   ],
-  link: "https://digital.gov.eg/services/health-cards",
+  link: "https://wlms.smcegy.com/WLMSOnline/Online",
   location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الصحية", target: "البالغين" }
 },
@@ -5850,7 +5850,7 @@ const electronicServices = [
     "ستصلك رسالة SMS على الرقم المسجل تحتوي على رقم الطلب وإرشادات متابعة الطلب.",
     "يمكنك متابعة حالة الطلب عبر الرابط المخصص على بوابة وزارة الصحة."
   ],
-  link: "https://digital.gov.eg/services/health-cards",
+  link: "https://wlms.smcegy.com/WLMSOnline/Online",
   location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الصحية", target: "الأطفال" }
 },
@@ -5877,7 +5877,7 @@ const electronicServices = [
     "ستصلك رسالة SMS على الرقم المسجل تحتوي على رقم الطلب وإرشادات متابعة الطلب.",
     "يمكنك متابعة حالة الطلب عبر الرابط المخصص على بوابة وزارة الصحة."
   ],
-  link: "https://digital.gov.eg/services/health-cards",
+  link: "https://wlms.smcegy.com/WLMSOnline/Online",
   location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الصحية", target: "البالغين" }
 },
@@ -5905,7 +5905,7 @@ const electronicServices = [
     "ستستلم رسالة SMS على الرقم المسجل تحتوي على رقم الطلب وإرشادات متابعة الطلب.",
     "يمكنك متابعة حالة الطلب عبر الرابط المخصص على بوابة وزارة الصحة."
   ],
-  link: "https://digital.gov.eg/services/health-cards",
+  link: "https://wlms.smcegy.com/WLMSOnline/Online",
   location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الصحية", target: "الأطفال ذوي الاحتياجات الخاصة" }
 },
@@ -5933,7 +5933,7 @@ const electronicServices = [
     "ستستلم رسالة SMS على الرقم المسجل تحتوي على رقم الطلب وإرشادات متابعة الطلب.",
     "يمكنك متابعة حالة الطلب عبر الرابط المخصص على بوابة وزارة الصحة."
   ],
-  link: "https://digital.gov.eg/services/health-cards",
+  link: "https://wlms.smcegy.com/WLMSOnline/Online",
   location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الصحية", target: "الأطفال ذوي الاحتياجات الخاصة" }
 },
@@ -5956,7 +5956,7 @@ const electronicServices = [
       "احتفظ برقم الطلب لمتابعة التنفيذ."
     ],
     link: "https://digital.gov.eg/services/id-marital-status",
-    location: "البوابة الإلكترونية لمصر الرقمية",
+    location: "منصة مصر الرقمية",
     categories: { domain: "الخدمات الرقمية", target: "مواطنون" }
   }
 ];

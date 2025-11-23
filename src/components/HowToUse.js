@@ -18,17 +18,17 @@ function HowToUse() {
         <h2 className="how-title">طريقة استخدام الموقع</h2>
       </AnimatedTopToBottom>
         <div className="how-steps">
-            <AnimatedBottomToTop classname="how-card">
                 {steps.map((step, index) => ( 
-                    <> 
-                        <div className="how-number">{step.id}</div> 
-                        <div className="how-icon">
-                            <Icon icon={step.icon} ></Icon> 
-                        </div> 
-                        <p className="how-desc">{step.title}</p> 
-                    </> 
+                    <AnimatedBottomToTop key={index} stagger={2} classname="card-width">
+                        <div className="how-card">
+                            <div className="how-number">{step.id}</div> 
+                            <div className="how-icon">
+                                <Icon icon={step.icon} ></Icon> 
+                            </div> 
+                            <p className="how-desc">{step.title}</p> 
+                        </div>
+                    </AnimatedBottomToTop> 
                 ))} 
-            </AnimatedBottomToTop> 
         </div>
     </div>
   );
