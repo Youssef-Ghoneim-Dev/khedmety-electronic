@@ -1,16 +1,14 @@
 import React from "react";
 import "../style/HowToUse.css";
-import { Icon } from "@iconify/react";
 import AnimatedTopToBottom from "../Animated/AnimatedTopToBottom";
 import AnimatedBottomToTop from "../Animated/AnimatedBottomToTop";
 
 const steps = [
-  { id: 1, title: "اختر نوع الخدمة", icon: "bxs:search" },
-  { id: 2, title: "اقرأ المتطلبات", icon: "bxs:file" },
-  { id: 3, title: "اتبع الخطوات", icon: "bxs:book" },
-  { id: 4, title: "نفّذ الخدمة بسهولة", icon: "bxs:check-circle" },
+  { id: 1, title: "اختر نوع الخدمة", icon: "bx-search-alt-2 bx-tada" },
+  { id: 2, title: "اقرأ المتطلبات", icon: "bxs-file bx-fade-left" },
+  { id: 3, title: "اتبع الخطوات", icon: "bxs-book bx-flashing" },
+  { id: 4, title: "نفّذ الخدمة بسهولة", icon: "bxs-check-circle bx-burst" },
 ];
-
 function HowToUse() {
   return (
     <div className="how-section">
@@ -23,7 +21,7 @@ function HowToUse() {
                         <div className="how-card">
                             <div className="how-number">{step.id}</div> 
                             <div className="how-icon">
-                                <Icon icon={step.icon} ></Icon> 
+                                <i className={`bx ${step.icon}`} ></i> 
                             </div> 
                             <p className="how-desc">{step.title}</p> 
                         </div>

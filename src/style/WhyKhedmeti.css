@@ -6,13 +6,13 @@
 
 .why-title {
   font-size: 36px;
-  font-weight: 800;
   color: #3871c1;
   margin-bottom: 50px;
 }
 
 .why-flex {
   display: flex;
+  font-weight: 800;
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
@@ -27,7 +27,6 @@
   transform: translateY(15px) !important;
   transition: transform 0.3s ease, box-shadow 0.3s ease !important;
 }
-
 .why-card:hover {
   transform: translateY(-1px) scale(1.03) !important;
   box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);

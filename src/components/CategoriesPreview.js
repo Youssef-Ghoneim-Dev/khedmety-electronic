@@ -5,16 +5,16 @@ import { Icon } from '@iconify/react';
 import AnimatedLeftToRight from "../Animated/AnimatedLeftToRight"
 import AnimatedRightToLeft from "../Animated/AnimatedRightToLeft"
 export const categories = [
-  { id: 1, title: "الهوية والوثائق", icon: "mdi:id-card" },
-  { id: 2, title: "السفر والجوازات", icon: "mdi:passport" },
-  { id: 3, title: "المرور والنقل", icon: "mdi:car-multiple" },
-  { id: 4, title: "الصحة", icon: "mdi:medical-bag" },
-  { id: 5, title: "التعليم", icon: "mdi:school" },
-  { id: 6, title: "التموين والدعم", icon: "mdi:cart-variant" },
-  { id: 7, title: "الإسكان والعقارات", icon: "mdi:home-city" },
-  { id: 8, title: "التأمينات والعمل", icon: "mdi:briefcase-check" },
-  { id: 9, title: "الشؤون الاجتماعية", icon: "mdi:account-group" },
-  { id: 10, title: "الخدمات الرقمية", icon: "mdi:web" }
+  { id: 1, title: "الهوية والوثائق", icon: "mdi:id-card", class: "bx-flashing" },
+  { id: 2, title: "السفر والجوازات", icon: "mdi:passport", class: "bx-tada" },
+  { id: 3, title: "المرور والنقل", icon: "mdi:car-multiple", class: "bx-fade-right" },
+  { id: 4, title: "الصحة", icon: "mdi:medical-bag", class: "bx-fade-left" },
+  { id: 5, title: "التعليم", icon: "mdi:school", class: "bx-fade-up" },
+  { id: 6, title: "التموين والدعم", icon: "mdi:cart-variant", class: "bx-fade-down" },
+  { id: 7, title: "الإسكان والعقارات", icon: "mdi:home-city", class: "bx-burst" },
+  { id: 8, title: "التأمينات والعمل", icon: "mdi:briefcase-check", class: "bx-tada" },
+  { id: 9, title: "الشؤون الاجتماعية", icon: "mdi:account-group", class: "bx-flashing" },
+  { id: 10, title: "الخدمات الرقمية", icon: "mdi:web", class: "bx-burst" },
 ];
 
 
@@ -37,7 +37,7 @@ function CategoriesPreview() {
                 >
                     <div className="category-card">
                         <div className="category-icon">
-                            <Icon icon={cat.icon} width="50" height="50" />
+                            <Icon className={cat.class} icon={cat.icon} width="50" height="50" />
                         </div>
 
                         <h3 className="category-name">{cat.title}</h3>
