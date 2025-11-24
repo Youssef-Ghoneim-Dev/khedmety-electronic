@@ -13,6 +13,7 @@ function highlightText(text, query) {
 }
 
 function ServiceDetailsComp({ query , thevalue}) {
+    
     const fuse = new Fuse(electronicServices, {
         keys: ['title', 'desc'],
         threshold: 0.4,

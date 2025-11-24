@@ -1,4 +1,4 @@
-const electronicServices = [
+const newservrise = [
 {
   id: 251,
   title: "التسجيل في الهوية الرقمية المصرية (تأتيكم قريباً)",
@@ -105,7 +105,7 @@ const electronicServices = [
       "سيتم إخطارك برسالة SMS عند تجهيز الشهادة."
     ],
     link: "https://digital.gov.eg/services/death-certificate",
-    location: "البوابة الرقمية - قسم الأحوال المدنية",
+    location: "منصة مصر الرقمية",
     categories: { domain: "الخدمات الرقمية", target: "مواطنون" }
   },
   {
@@ -127,7 +127,7 @@ const electronicServices = [
       "سيتم إرسال رسالة تأكيد ورقم طلب للمتابعة."
     ],
     link: "https://digital.gov.eg/services/marriage-certificate",
-    location: "منصة مصر الرقمية - قسم الأحوال المدنية",
+    location: "منصة مصر الرقمية",
     categories: { domain: "الخدمات الرقمية", target: "مواطنون" }
   },
   {
@@ -193,7 +193,7 @@ const electronicServices = [
       "احتفظ برقم الطلب لمتابعة التنفيذ."
     ],
     link: "https://digital.gov.eg/services/id-correction",
-    location: "بوابة مصر الرقمية",
+    location: "منصة مصر الرقمية",
     categories: { domain: "الخدمات الرقمية", target: "مواطنون" }
   },
   {
@@ -350,7 +350,7 @@ const electronicServices = [
       "تابع حالة الطلب عبر حسابك."
     ],
     link: "https://digital.gov.eg/services/birth-abroad",
-    location: "منصة مصر الرقمية - خدمات المصريين بالخارج",
+    location: "منصة مصر الرقمية",
     categories: { domain: "الخدمات الرقمية", target: "مصريون بالخارج" }
   },
   {
@@ -458,7 +458,7 @@ const electronicServices = [
     "احتفظ برقم الطلب لتتبّع حالته."
   ],
   link: "https://digital.gov.eg/services/driving-license-renew",
-  location: "منصة مصر الرقمية - خدمات المرور",
+  location: "منصة مصر الرقمية",
   categories: { domain: "الخدمات الرقمية", target: "سائقون" }
 },
 {
@@ -524,7 +524,7 @@ const electronicServices = [
     "احتفظ برقم الطلب لمتابعته."
   ],
   link: "https://digital.gov.eg/services/driving-license-replacement",
-  location: "منصة مصر الرقمية - خدمات المرور",
+  location: "منصة مصر الرقمية",
   categories: { domain: "الخدمات الرقمية", target: "سائقون" }
 },
 {
@@ -675,7 +675,7 @@ const electronicServices = [
     "احتفظ برقم الطلب لمتابعة التنفيذ."
   ],
   link: "https://digital.gov.eg/services/ration-card-new",
-  location: "منصة مصر الرقمية - خدمات التموين",
+  location: "منصة مصر الرقمية",
   categories: { domain: "الخدمات الرقمية", target: "الأسر" }
 },
 {
@@ -898,7 +898,7 @@ const electronicServices = [
     "احتفظ برقم الطلب لمتابعة حالته."
   ],
   link: "https://digital.gov.eg/services/marriage-auth",
-  location: "منصة مصر الرقمية - خدمات التوثيق",
+  location: "منصة مصر الرقمية",
   categories: { domain: "الخدمات الرقمية", target: "المتزوجون" }
 },
 {
@@ -946,7 +946,7 @@ const electronicServices = [
     "احتفظ برقم الطلب لتتبّع الإجراء."
   ],
   link: "https://digital.gov.eg/services/property-sale",
-  location: "منصة مصر الرقمية - الشهر العقاري",
+  location: "منصة مصر الرقمية",
   categories: { domain: "الخدمات الرقمية", target: "ملاك العقارات" }
 },
 {
@@ -969,7 +969,7 @@ const electronicServices = [
     "حدد موعد الاستلام من المكتب المختار."
   ],
   link: "https://digital.gov.eg/services/general-power-attorney",
-  location: "منصة مصر الرقمية - التوثيق",
+  location: "منصة مصر الرقمية",
   categories: { domain: "الخدمات الرقمية", target: "المواطنون" }
 },
 {
@@ -1073,7 +1073,7 @@ const electronicServices = [
     "ادفع الرسوم إلكترونيًا.",
     "حدد موعد استلام النسخة الموثقة."
   ],
-  link: "https://digital.gov.eg/services/official-declaration",
+  link: "https://digital.gov.eg/",
   location: "منصة مصر الرقمية",
   categories: { domain: "الخدمات الرقمية", target: "المواطنون" }
 },
@@ -1096,8 +1096,8 @@ const electronicServices = [
     "ادفع الرسوم إلكترونيًا.",
     "اختر مكتب التوثيق لاستلام النسخة الموثقة."
   ],
-  link: "https://digital.gov.eg/services/car-sale-agency",
-  location: "منصة مصر الرقمية - التوثيق",
+  link: "https://digital.gov.eg/",
+  location: "منصة مصر الرقمية",
   categories: { domain: "الخدمات الرقمية", target: "سائقون" }
 },
 {
@@ -1120,7 +1120,7 @@ const electronicServices = [
     "احتفظ برقم الطلب لمتابعة القبول."
   ],
   link: "https://digital.gov.eg/services/school-application",
-  location: "بوابة وزارة التربية والتعليم",
+  location: "وزارة التربية والتعليم",
   categories: { domain: "الخدمات الرقمية", target: "أولياء الأمور" }
 },
 {
@@ -1143,7 +1143,7 @@ const electronicServices = [
     "تابع حالة الطلب من حسابك."
   ],
   link: "https://digital.gov.eg/services/school-transfer",
-  location: "منصة وزارة التربية والتعليم",
+  location: "وزارة التربية والتعليم",
   categories: { domain: "الخدمات الرقمية", target: "أولياء الأمور" }
 },
 {
@@ -1166,7 +1166,7 @@ const electronicServices = [
     "احتفظ برقم الطلب للمتابعة."
   ],
   link: "https://digital.gov.eg/services/kg-application",
-  location: "بوابة وزارة التعليم",
+  location: "وزارة التربية والتعليم",
   categories: { domain: "الخدمات الرقمية", target: "أولياء الأمور" }
 },
 {
@@ -1182,7 +1182,7 @@ const electronicServices = [
     "يمكنك طباعة النتيجة أو حفظها PDF."
   ],
   link: "https://digital.gov.eg/services/highschool-results",
-  location: "بوابة وزارة التربية والتعليم",
+  location: "وزارة التربية والتعليم",
   categories: { domain: "الخدمات الرقمية", target: "الطلاب" }
 },
 {
@@ -1247,7 +1247,7 @@ const electronicServices = [
     "احتفظ برقم الطلب لمتابعة حالته."
   ],
   link: "https://digital.gov.eg/services/graduation-certificate",
-  location: "بوابة وزارة التعليم العالي",
+  location: "وزارة التعليم العالي",
   categories: { domain: "الخدمات الرقمية", target: "الخريجون" }
 },
 {
@@ -1267,7 +1267,7 @@ const electronicServices = [
     "اختر طريقة استلام البيان (إلكتروني أو مطبوع)."
   ],
   link: "https://digital.gov.eg/services/university-grades",
-  location: "منصة التعليم العالي",
+  location: "وزارة التعليم العالي",
   categories: { domain: "الخدمات الرقمية", target: "الطلاب" }
 },
 {
@@ -1287,7 +1287,7 @@ const electronicServices = [
     "اختر طريقة استلام الإفادة المناسبة."
   ],
   link: "https://digital.gov.eg/services/university-enrollment-proof",
-  location: "منصة وزارة التعليم العالي",
+  location: "وزارة التعليم العالي",
   categories: { domain: "الخدمات الرقمية", target: "الطلاب" }
 },
 {
@@ -1309,7 +1309,7 @@ const electronicServices = [
     "تابع حالة الطلب عبر حسابك."
   ],
   link: "https://digital.gov.eg/services/highschool-replacement",
-  location: "بوابة وزارة التربية والتعليم",
+  location: "وزارة التربية والتعليم",
   categories: { domain: "الخدمات الرقمية", target: "الطلاب" }
 },
 {
@@ -1332,8 +1332,8 @@ const electronicServices = [
     "اضغط على (تأكيد التسجيل) لإرسال الطلب.",
     "سيتم إرسال رسالة نصية تحتوي على رقم الطلب وموعد استلام الكارت الصحي من أقرب وحدة تأمين."
   ],
-  link: "https://digital.gov.eg/services/universal-health",
-  location: "منصة مصر الرقمية - هيئة التأمين الصحي الشامل",
+  link: "https://digital.gov.eg/",
+  location: "منصة مصر الرقمية",
   categories: { domain: "الخدمات الرقمية", target: "الأسر" }
 },
 {
@@ -1356,7 +1356,7 @@ const electronicServices = [
     "ادفع الرسوم إلكترونيًا.",
     "ستصلك رسالة نصية عند جاهزية البطاقة للاستلام."
   ],
-  link: "https://digital.gov.eg/services/healthcard-replacement",
+  link: "https://digital.gov.eg/",
   location: "منصة مصر الرقمية",
   categories: { domain: "الخدمات الرقمية", target: "المواطنون" }
 },
@@ -1380,7 +1380,7 @@ const electronicServices = [
     "يمكنك تعديل الموعد أو إلغاؤه من نفس الحساب لاحقًا."
   ],
   link: "https://digital.gov.eg/services/hospital-appointment",
-  location: "منصة مصر الرقمية - وزارة الصحة",
+  location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الرقمية", target: "المواطنون" }
 },
 {
@@ -1397,7 +1397,7 @@ const electronicServices = [
     "يمكنك تحميل النتيجة بصيغة PDF أو طباعتها."
   ],
   link: "https://digital.gov.eg/services/medical-results",
-  location: "منصة وزارة الصحة",
+  location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الرقمية", target: "المرضى" }
 },
 {
@@ -1415,7 +1415,7 @@ const electronicServices = [
     "ستتلقى رسالة تحتوي على رقم التسجيل ومكان الموعد عند تحديده."
   ],
   link: "https://digital.gov.eg/services/vaccine-registration",
-  location: "موقع وزارة الصحة - إدارة التطعيمات",
+  location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الرقمية", target: "المواطنون" }
 },
 {
@@ -1434,7 +1434,7 @@ const electronicServices = [
     "سيصلك إيصال إلكتروني يؤكد تجديد الاشتراك بنجاح."
   ],
   link: "https://digital.gov.eg/services/student-health-renew",
-  location: "منصة مصر الرقمية - وزارة الصحة",
+  location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الرقمية", target: "الطلاب" }
 },
 {
@@ -1474,7 +1474,7 @@ const electronicServices = [
     "يمكنك طباعة نسخة من القرار أو الاحتفاظ بها إلكترونيًا."
   ],
   link: "https://digital.gov.eg/services/state-treatment-status",
-  location: "منصة وزارة الصحة",
+  location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الرقمية", target: "المرضى" }
 },
 {
@@ -1493,7 +1493,7 @@ const electronicServices = [
     "سيصلك إشعار إلكتروني برقم وتاريخ الموعد."
   ],
   link: "https://digital.gov.eg/services/outpatient-appointment",
-  location: "منصة مصر الرقمية - وزارة الصحة",
+  location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الرقمية", target: "المرضى" }
 },
 {
@@ -1515,7 +1515,7 @@ const electronicServices = [
     "سيتم إصدار الشهادة فورًا مع إمكانية تحميلها أو طباعتها."
   ],
   link: "https://digital.gov.eg/services/vaccine-certificate",
-  location: "وزارة الصحة المصرية",
+  location: "بوابة وزارة الصحة",
   categories: { domain: "الخدمات الرقمية", target: "المسافرون" }
 },
 {
@@ -1539,7 +1539,7 @@ const electronicServices = [
     "سيتم إرسال رقم الطلب لمتابعة حالة التسجيل لاحقًا."
   ],
   link: "https://digital.gov.eg/services/takaful-karama",
-  location: "بوابة وزارة التضامن الاجتماعي",
+  location: "وزارة التضامن الاجتماعي",
   categories: { domain: "الخدمات الاجتماعية", target: "الأسر محدودة الدخل" }
 },
 {
@@ -1555,7 +1555,7 @@ const electronicServices = [
     "يمكنك طباعة النتيجة للاحتفاظ بها."
   ],
   link: "https://digital.gov.eg/services/takaful-status",
-  location: "منصة وزارة التضامن الاجتماعي",
+  location: "وزارة التضامن الاجتماعي",
   categories: { domain: "الخدمات الاجتماعية", target: "الأسر محدودة الدخل" }
 },
 {
@@ -1578,7 +1578,7 @@ const electronicServices = [
     "سيتم إخطارك عبر الرسائل القصيرة بنتيجة الطلب وموعد الاستلام."
   ],
   link: "https://digital.gov.eg/services/disability-card",
-  location: "بوابة وزارة التضامن الاجتماعي",
+  location: "وزارة التضامن الاجتماعي",
   categories: { domain: "الخدمات الاجتماعية", target: "ذوي الإعاقة" }
 },
 {
@@ -1600,7 +1600,7 @@ const electronicServices = [
     "ستصلك رسالة بتأكيد استلام الطلب ومتابعته لاحقًا."
   ],
   link: "https://digital.gov.eg/services/disability-update",
-  location: "منصة وزارة التضامن الاجتماعي",
+  location: "وزارة التضامن الاجتماعي",
   categories: { domain: "الخدمات الاجتماعية", target: "ذوي الإعاقة" }
 },
 {
@@ -1623,7 +1623,7 @@ const electronicServices = [
     "سيتم إرسال رقم الطلب لمتابعة حالته إلكترونيًا."
   ],
   link: "https://digital.gov.eg/services/pension-apply",
-  location: "منصة التأمينات الاجتماعية المصرية",
+  location: "الهيئة القومية للتأمين الاجتماعي",
   categories: { domain: "الخدمات الاجتماعية", target: "المتقاعدون" }
 },
 {
@@ -1676,7 +1676,7 @@ const electronicServices = [
     "يمكنك طباعته أو حفظه للاستخدام لاحقًا."
   ],
   link: "https://digital.gov.eg/services/insurance-number",
-  location: "منصة التأمينات الاجتماعية المصرية",
+  location: "الهيئة القومية للتأمين الاجتماعي",
   categories: { domain: "الخدمات الاجتماعية", target: "المواطنون" }
 },
 {
@@ -1711,7 +1711,7 @@ const electronicServices = [
     "سيتم إرسال رقم متابعة لمراجعة حالة الشكوى لاحقًا."
   ],
   link: "https://digital.gov.eg/services/social-complaint",
-  location: "بوابة وزارة التضامن الاجتماعي",
+  location: "وزارة التضامن الاجتماعي",
   categories: { domain: "الخدمات الاجتماعية", target: "المواطنون" }
 },
 {
@@ -1734,7 +1734,7 @@ const electronicServices = [
     "سيتم إخطارك بنتيجة الطلب بعد مراجعته من الجهات المختصة."
   ],
   link: "https://digital.gov.eg/services/emergency-cash-support",
-  location: "بوابة وزارة التضامن الاجتماعي",
+  location: "وزارة التضامن الاجتماعي",
   categories: { domain: "الخدمات الاجتماعية", target: "الأسر محدودة الدخل" }
 },
 {
@@ -1774,7 +1774,7 @@ const electronicServices = [
     "سيتم إرسال رقم الطلب لمتابعته إلكترونيًا."
   ],
   link: "https://digital.gov.eg/services/marriage-support",
-  location: "منصة وزارة التضامن الاجتماعي",
+  location: "وزارة التضامن الاجتماعي",
   categories: { domain: "الخدمات الاجتماعية", target: "الفتيات اليتيمات" }
 },
 {
@@ -1797,7 +1797,7 @@ const electronicServices = [
     "سيتم إخطارك بنتيجة الطلب خلال أيام العمل الرسمية."
   ],
   link: "https://digital.gov.eg/services/death-assistance",
-  location: "بوابة وزارة التضامن الاجتماعي",
+  location: "وزارة التضامن الاجتماعي",
   categories: { domain: "الخدمات الاجتماعية", target: "أسر المتوفين" }
 },
 {
@@ -1819,7 +1819,7 @@ const electronicServices = [
     "سيتم مراجعة البيانات وإشعارك بالنتيجة خلال فترة قصيرة."
   ],
   link: "https://digital.gov.eg/services/takaful-update",
-  location: "منصة وزارة التضامن الاجتماعي",
+  location: "وزارة التضامن الاجتماعي",
   categories: { domain: "الخدمات الاجتماعية", target: "الأسر المستفيدة" }
 },
 {
@@ -1841,7 +1841,7 @@ const electronicServices = [
     "ستصلك رسالة SMS بتفاصيل استلام الكارت الجديد."
   ],
   link: "https://digital.gov.eg/services/ration-card-replacement",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -1879,7 +1879,7 @@ const electronicServices = [
     "ستظهر تفاصيل المقررات التموينية المتبقية للشهر الحالي."
   ],
   link: "https://digital.gov.eg/services/ration-balance",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -1900,7 +1900,7 @@ const electronicServices = [
     "سيتم مراجعة الطلب وإخطارك بعد الموافقة."
   ],
   link: "https://digital.gov.eg/services/ration-transfer",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -1922,7 +1922,7 @@ const electronicServices = [
     "ستصلك رسالة تؤكد تحديث بيانات البطاقة."
   ],
   link: "https://digital.gov.eg/services/ration-delete",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -1944,7 +1944,7 @@ const electronicServices = [
     "سيتم إرسال رسالة لتأكيد استلام الطلب ومتابعته إلكترونيًا."
   ],
   link: "https://digital.gov.eg/services/new-ration-card",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر الجديدة" }
 },
 {
@@ -1962,7 +1962,7 @@ const electronicServices = [
     "ستصلك رسالة توضح موعد ومكان استلام البطاقة."
   ],
   link: "https://digital.gov.eg/services/bread-card",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "المواطنون" }
 },
 {
@@ -1978,7 +1978,7 @@ const electronicServices = [
     "يمكنك طباعة الصفحة أو حفظها."
   ],
   link: "https://digital.gov.eg/services/ration-status",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "المواطنون" }
 },
 {
@@ -2000,7 +2000,7 @@ const electronicServices = [
     "ستصلك رسالة توضح موعد استلام البطاقة الجديدة."
   ],
   link: "https://digital.gov.eg/services/ration-card-damage",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -2016,7 +2016,7 @@ const electronicServices = [
     "يمكنك اختيار المكتب المناسب ومشاهدة موقعه على الخريطة."
   ],
   link: "https://digital.gov.eg/services/ration-offices",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "المواطنون" }
 },
 {
@@ -2034,7 +2034,7 @@ const electronicServices = [
     "ستصلك رسالة برقم المتابعة لمراجعة حالتها لاحقًا."
   ],
   link: "https://digital.gov.eg/services/ration-complaint",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "المواطنون" }
 },
 {
@@ -2056,7 +2056,7 @@ const electronicServices = [
     "سيتم إخطارك بنتيجة الطلب بعد المراجعة."
   ],
   link: "https://digital.gov.eg/services/ration-wife",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -2077,7 +2077,7 @@ const electronicServices = [
     "سيتم تحديث البطاقة خلال عدة أيام عمل."
   ],
   link: "https://digital.gov.eg/services/ration-add-wife",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -2099,7 +2099,7 @@ const electronicServices = [
     "سيتم إخطارك عند إصدار البطاقة الجديدة."
   ],
   link: "https://digital.gov.eg/services/ration-separation",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأفراد المستقلون" }
 },
 {
@@ -2121,7 +2121,7 @@ const electronicServices = [
     "سيتم إشعارك عبر رسالة نصية فور اعتماد التحديث."
   ],
   link: "https://digital.gov.eg/services/ration-update",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -2143,7 +2143,7 @@ const electronicServices = [
     "ستصلك رسالة تأكيد باستلام الطلب وإشعار بالنتيجة لاحقًا."
   ],
   link: "https://digital.gov.eg/services/ration-separate-card",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأفراد المستقلون" }
 },
 {
@@ -2165,7 +2165,7 @@ const electronicServices = [
     "سيتم إشعارك بنتيجة الطلب عبر رسالة قصيرة."
   ],
   link: "https://digital.gov.eg/services/ration-reactivate",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -2186,7 +2186,7 @@ const electronicServices = [
     "سيتم إرسال إشعار بموعد استلام البطاقة الجديدة."
   ],
   link: "https://digital.gov.eg/services/bread-card-replacement",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "المواطنون" }
 },
 {
@@ -2202,7 +2202,7 @@ const electronicServices = [
     "ستظهر الحصة الشهرية وعدد الأرغفة المصروفة والمتبقية."
   ],
   link: "https://digital.gov.eg/services/bread-balance",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -2219,7 +2219,7 @@ const electronicServices = [
     "سيتم تحميل الشهادة بصيغة PDF ويمكن طباعتها فورًا."
   ],
   link: "https://digital.gov.eg/services/ration-certificate",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "المواطنون" }
   },
 {
@@ -2241,7 +2241,7 @@ const electronicServices = [
     "ستصلك رسالة نصية بنتيجة التظلم بعد المراجعة."
   ],
   link: "https://digital.gov.eg/services/ration-appeal",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "المواطنون" }
 },
 {
@@ -2263,7 +2263,7 @@ const electronicServices = [
     "سيتم تحديث بيانات البطاقة الجديدة خلال أيام."
   ],
   link: "https://digital.gov.eg/services/ration-transfer-spouse",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -2279,7 +2279,7 @@ const electronicServices = [
     "يمكنك حفظ البيانات أو طباعتها."
   ],
   link: "https://digital.gov.eg/services/ration-members",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -2300,7 +2300,7 @@ const electronicServices = [
     "سيتم إرسال إشعار عند صدور البطاقة الجديدة."
   ],
   link: "https://digital.gov.eg/services/ration-digital-convert",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -2322,7 +2322,7 @@ const electronicServices = [
     "سيتم تعليق البطاقة حتى تقديم طلب إعادة تشغيل لاحقًا."
   ],
   link: "https://digital.gov.eg/services/ration-suspend",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -2344,7 +2344,7 @@ const electronicServices = [
     "سيتم تفعيل البطاقة خلال 48 ساعة من الموافقة."
   ],
   link: "https://digital.gov.eg/services/ration-reactivate-after-suspend",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -2365,7 +2365,7 @@ const electronicServices = [
     "سيتم مراجعة الطلب من الجهة المختصة وإشعارك بالنتيجة."
   ],
   link: "https://digital.gov.eg/services/ration-merge",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -2386,7 +2386,7 @@ const electronicServices = [
     "سيتم إرسال رقم الطلب لمتابعته حتى إصدار البطاقة."
   ],
   link: "https://digital.gov.eg/services/ration-student",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الطلبة المغتربون" }
 },
 {
@@ -2408,7 +2408,7 @@ const electronicServices = [
     "سيتم إشعارك عند اعتماد النقل رسميًا."
   ],
   link: "https://digital.gov.eg/services/ration-transfer-governorate",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -2430,7 +2430,7 @@ const electronicServices = [
     "سيتم إصدار البطاقة الجديدة خلال أيام العمل الرسمية."
   ],
   link: "https://digital.gov.eg/services/ration-heirs",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "ورثة المتوفين" }
 },
 {
@@ -2448,7 +2448,7 @@ const electronicServices = [
     "ستصلك رسالة برقم المتابعة للحالة."
   ],
   link: "https://digital.gov.eg/services/ration-office-complaint",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "المواطنون" }
 },
 {
@@ -2469,7 +2469,7 @@ const electronicServices = [
     "سيتم مراجعة الطلب من الجهة المختصة."
   ],
   link: "https://digital.gov.eg/services/ration-edit-members",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -2485,7 +2485,7 @@ const electronicServices = [
     "ستظهر رسالة بنجاح العملية ويمكنك طباعتها."
   ],
   link: "https://digital.gov.eg/services/ration-phone",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "المواطنون" }
 },
 {
@@ -2501,7 +2501,7 @@ const electronicServices = [
     "ستظهر نتيجة الطلب وتاريخ آخر تحديث."
   ],
   link: "https://digital.gov.eg/services/bread-status",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "المواطنون" }
 },
 {
@@ -2524,7 +2524,7 @@ const electronicServices = [
     "سيتم إشعارك برقم الطلب لمتابعته إلكترونيًا."
   ],
   link: "https://digital.gov.eg/services/ration-new-family",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر الجديدة" }
 },
 {
@@ -2545,7 +2545,7 @@ const electronicServices = [
     "سيتم إخطارك بموعد استلام البطاقة الجديدة خلال أيام."
   ],
   link: "https://digital.gov.eg/services/bread-card-damage",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -2568,7 +2568,7 @@ const electronicServices = [
     "سيتم مراجعة الطلب وإعلامك بالنتيجة عبر رسالة قصيرة."
   ],
   link: "https://digital.gov.eg/services/ration-wife-transfer",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -2590,7 +2590,7 @@ const electronicServices = [
     "سيتم تحديث العنوان خلال أيام العمل الرسمية."
   ],
   link: "https://digital.gov.eg/services/ration-address-update",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "المواطنون" }
 },
 {
@@ -2606,7 +2606,7 @@ const electronicServices = [
     "يمكنك طباعة النتيجة أو حفظها كملف PDF."
   ],
   link: "https://digital.gov.eg/services/ration-appeal-status",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -2628,7 +2628,7 @@ const electronicServices = [
     "سيتم إخطارك بنتيجة المراجعة عبر رسالة نصية."
   ],
   link: "https://digital.gov.eg/services/ration-restore",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -2650,7 +2650,7 @@ const electronicServices = [
     "ستتم مراجعة التظلم وإرسال النتيجة عبر رسالة SMS."
   ],
   link: "https://digital.gov.eg/services/ration-child-appeal",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -2666,7 +2666,7 @@ const electronicServices = [
     "ستظهر رسالة تؤكد نجاح التحديث."
   ],
   link: "https://digital.gov.eg/services/ration-phone-update",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "المواطنون" }
 },
 {
@@ -2683,7 +2683,7 @@ const electronicServices = [
     "سيتم تحميلها مباشرة بصيغة PDF."
   ],
   link: "https://digital.gov.eg/services/bread-certificate",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "المواطنون" }
 },
 {
@@ -2701,7 +2701,7 @@ const electronicServices = [
     "سيتم إيقاف البطاقة فورًا لحين إصدار بدل فاقد."
   ],
   link: "https://digital.gov.eg/services/ration-lost",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -2717,7 +2717,7 @@ const electronicServices = [
     "يمكنك طباعة الإشعار للاحتفاظ به."
   ],
   link: "https://digital.gov.eg/services/ration-delivery-status",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "المواطنون" }
 },
 {
@@ -2742,7 +2742,7 @@ const electronicServices = [
     "عند اكتمال التحديث، ستظهر المواليد الجدد ضمن بيانات بطاقة التموين ويمكنك طباعة إشعار التحديث إذا رغبت."
   ],
   link: "https://digital.gov.eg/services/ration-update-children",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -2766,7 +2766,7 @@ const electronicServices = [
     "يمكنك متابعة حالة الطلب لمعرفة موعد التحديث وتأكيد نجاح العملية."
   ],
   link: "https://digital.gov.eg/services/ration-wife-update",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -2789,7 +2789,7 @@ const electronicServices = [
     "ستتلقى إشعارًا باستلام الطلب، ويمكن متابعة حالة الطلب لمعرفة موعد استلام البطاقة الجديدة."
   ],
   link: "https://digital.gov.eg/services/ration-lost-card",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -2812,7 +2812,7 @@ const electronicServices = [
     "ستظهر رسالة تأكيد استلام الطلب، ويمكن متابعة حالة الطلب لمعرفة موعد التحديث."
   ],
   link: "https://digital.gov.eg/services/ration-correction",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -2836,7 +2836,7 @@ const electronicServices = [
     "يمكن متابعة حالة الطلب لمعرفة موعد تحديث العنوان رسميًا."
     ],
   link: "https://digital.gov.eg/services/ration-address-update",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -2859,7 +2859,7 @@ const electronicServices = [
     "ستظهر رسالة تؤكد نجاح التحديث، ويمكن متابعة حالة البطاقة في أي وقت."
   ],
   link: "https://digital.gov.eg/services/ration-phone-update",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -2879,7 +2879,7 @@ const electronicServices = [
     "تأكد من التحقق من البيانات قبل الذهاب لاستلام البطاقة."
   ],
   link: "https://digital.gov.eg/services/ration-delivery-status",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -2903,7 +2903,7 @@ const electronicServices = [
     "يمكن متابعة حالة الطلب حتى اكتمال التفعيل."
   ],
   link: "https://digital.gov.eg/services/ration-restore",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -2927,7 +2927,7 @@ const electronicServices = [
     "يمكن متابعة حالة التظلم من خلال حسابك على البوابة."
   ],
   link: "https://digital.gov.eg/services/ration-child-appeal",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
   },
 {
@@ -2947,7 +2947,7 @@ const electronicServices = [
     "تأكد من متابعة التحديثات بشكل دوري في حالة إعادة التقديم أو تعديل البيانات."
   ],
   link: "https://digital.gov.eg/services/ration-appeal-status",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -2968,7 +2968,7 @@ const electronicServices = [
     "يمكنك طباعتها أو حفظها للاحتفاظ بها ضمن ملفاتك الشخصية."
   ],
   link: "https://digital.gov.eg/services/bread-certificate",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -2992,7 +2992,7 @@ const electronicServices = [
     "ستتلقى إشعارًا بتأكيد البلاغ ويمكن متابعة حالة الطلب من الحساب."
   ],
   link: "https://digital.gov.eg/services/ration-lost",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -3012,7 +3012,7 @@ const electronicServices = [
     "تأكد من مراجعة البيانات قبل الذهاب لاستلام البطاقة."
   ],
   link: "https://digital.gov.eg/services/ration-delivery-status",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -3035,7 +3035,7 @@ const electronicServices = [
     "ستتلقى إشعارًا باستلام الطلب ويمكن متابعة حالة الطلب من حسابك."
   ],
   link: "https://digital.gov.eg/services/ration-add-children",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -3058,7 +3058,7 @@ const electronicServices = [
     "ستتلقى إشعارًا بنتيجة التحديث ويمكن متابعة الحالة من حسابك على البوابة."
   ],
   link: "https://digital.gov.eg/services/ration-beneficiaries-update",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -3080,7 +3080,7 @@ const electronicServices = [
     "إذا وجدت أي اختلاف أو خطأ، يمكنك تقديم طلب تصحيح البيانات."
   ],
   link: "https://digital.gov.eg/services/ration-support-info",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -3105,7 +3105,7 @@ const electronicServices = [
     "يمكن متابعة حالة الطلب لمعرفة موعد تحديث البيانات الرسمي."
   ],
   link: "https://digital.gov.eg/services/ration-marital-update",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -3128,7 +3128,7 @@ const electronicServices = [
     "في حالة وجود أي اختلاف، يمكنك تقديم طلب لتصحيح البيانات عبر البوابة."
   ],
   link: "https://digital.gov.eg/services/ration-history",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -3154,7 +3154,7 @@ const electronicServices = [
     "يمكن متابعة حالة الطلب حتى اكتمال تعديل البيانات."
   ],
   link: "https://digital.gov.eg/services/ration-docs-missing",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -3178,7 +3178,7 @@ const electronicServices = [
     "يمكن متابعة حالة الطلب حتى اكتمال التحديث الرسمي للبيانات."
   ],
   link: "https://digital.gov.eg/services/ration-name-update",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -3203,7 +3203,7 @@ const electronicServices = [
     "بعد اكتمال الدمج، ستظهر جميع البيانات المحدثة ضمن البطاقة الجديدة."
   ],
   link: "https://digital.gov.eg/services/ration-merge-cards",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -3228,7 +3228,7 @@ const electronicServices = [
     "بعد اكتمال الفصل، ستظهر البطاقة الجديدة للفرد المستقل ويمكنه استخدامها لصرف الدعم."
   ],
   link: "https://digital.gov.eg/services/ration-card-separate",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -3253,7 +3253,7 @@ const electronicServices = [
     "بعد اكتمال التحديث، سيصبح الرقم القومي الجديد مسجلاً بشكل رسمي على البطاقة."
   ],
   link: "https://digital.gov.eg/services/ration-id-update",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -3278,7 +3278,7 @@ const electronicServices = [
     "بعد اكتمال الإلغاء، ستصبح البطاقة ملغاة بشكل رسمي ولن تؤثر على باقي البطاقات."
   ],
   link: "https://digital.gov.eg/services/ration-card-cancel",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -3303,7 +3303,7 @@ const electronicServices = [
     "بعد اكتمال التعديل، ستظهر البيانات الجديدة للسلع على البطاقة التموينية."
   ],
   link: "https://digital.gov.eg/services/ration-items-update",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -3328,7 +3328,7 @@ const electronicServices = [
     "بعد اكتمال التصحيح، ستصبح بيانات العنوان الجديدة معتمدة رسميًا على البطاقة."
   ],
   link: "https://digital.gov.eg/services/ration-address-correction",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -3352,7 +3352,7 @@ const electronicServices = [
     "يمكن متابعة حالة الطلب لمعرفة موعد تفعيل الرقم رسميًا."
   ],
   link: "https://digital.gov.eg/services/ration-emergency-phone",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -3378,7 +3378,7 @@ const electronicServices = [
     "بعد اكتمال التحديث، ستصبح بيانات السكن الجديدة معتمدة رسميًا على البطاقة."
   ],
   link: "https://digital.gov.eg/services/ration-home-update",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -3403,7 +3403,7 @@ const electronicServices = [
     "بعد اكتمال التحديث، ستصبح البيانات الجديدة معتمدة رسميًا على البطاقة."
   ],
   link: "https://digital.gov.eg/services/ration-divorce-update",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -3428,7 +3428,7 @@ const electronicServices = [
     "بعد اكتمال التحديث، ستصبح بيانات البطاقة معتمدة وفقًا للوضع الجديد للأسرة."
   ],
   link: "https://digital.gov.eg/services/ration-death-update",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -3453,7 +3453,7 @@ const electronicServices = [
     "بعد اكتمال التحديث، ستصبح البيانات الجديدة معتمدة على البطاقة."
   ],
   link: "https://digital.gov.eg/services/ration-child-school-update",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -3478,7 +3478,7 @@ const electronicServices = [
     "بعد اكتمال التحديث، ستصبح بيانات البطاقة معتمدة وفق الوضع الجديد للأسرة."
   ],
   link: "https://digital.gov.eg/services/ration-family-head-death",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -3503,7 +3503,7 @@ const electronicServices = [
     "بعد اكتمال التحديث، ستظهر أسماء المواليد الجدد على البطاقة وتمكنهم من صرف الدعم."
   ],
   link: "https://digital.gov.eg/services/ration-newborns-add",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -3528,7 +3528,7 @@ const electronicServices = [
     "بعد اكتمال التحديث، ستصبح البيانات الجديدة معتمدة رسميًا على البطاقة."
   ],
   link: "https://digital.gov.eg/services/ration-address-move",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -3551,7 +3551,7 @@ const electronicServices = [
     "في حالة وجود أي اختلاف، يمكنك تقديم طلب لتصحيح البيانات عبر البوابة."
   ],
   link: "https://digital.gov.eg/services/ration-balance-inquiry",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -3576,7 +3576,7 @@ const electronicServices = [
     "بعد اكتمال التحديث، ستصبح البيانات الجديدة معتمدة رسميًا على البطاقة."
   ],
   link: "https://digital.gov.eg/services/ration-lost-docs-update",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -3601,7 +3601,7 @@ const electronicServices = [
     "بعد اكتمال التفعيل، تصبح البطاقة جاهزة لصرف الدعم الشهري."
   ],
   link: "https://digital.gov.eg/services/ration-new-card-activate",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -3626,7 +3626,7 @@ const electronicServices = [
     "بعد اكتمال التعديل، ستظهر البيانات الجديدة للسلع على البطاقة التموينية."
   ],
   link: "https://digital.gov.eg/services/ration-items-change",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -3651,7 +3651,7 @@ const electronicServices = [
     "بعد اكتمال المعالجة، ستصدر البطاقة الجديدة ويصبح بإمكانك استخدامها لصرف الدعم."
   ],
   link: "https://digital.gov.eg/services/ration-card-replacement",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -3673,7 +3673,7 @@ const electronicServices = [
     "في حال وجود أي اختلاف، يمكنك تقديم طلب متابعة عبر البوابة."
   ],
   link: "https://digital.gov.eg/services/ration-update-status",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -3697,7 +3697,7 @@ const electronicServices = [
     "يمكن متابعة حالة الطلب لمعرفة موعد تفعيل الرقم الجديد رسميًا."
   ],
   link: "https://digital.gov.eg/services/ration-phone-update",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -3721,7 +3721,7 @@ const electronicServices = [
     "يمكن متابعة حالة الطلب لمعرفة موعد تحديث البيانات رسميًا."
   ],
   link: "https://digital.gov.eg/services/ration-work-update",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -3745,7 +3745,7 @@ const electronicServices = [
     "يمكن متابعة حالة الطلب لمعرفة موعد تفعيل البطاقة الجديدة رسميًا."
   ],
   link: "https://digital.gov.eg/services/ration-separate-card",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -3769,7 +3769,7 @@ const electronicServices = [
     "يمكن متابعة حالة الطلب لمعرفة موعد تحديث البيانات رسميًا."
   ],
   link: "https://digital.gov.eg/services/ration-marriage-update",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -3793,7 +3793,7 @@ const electronicServices = [
     "يمكن متابعة حالة الطلب لمعرفة موعد تحديث البيانات رسميًا."
   ],
   link: "https://digital.gov.eg/services/ration-divorce-card",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -3817,7 +3817,7 @@ const electronicServices = [
     "يمكن متابعة حالة الطلب لمعرفة موعد تحديث البيانات رسميًا."
   ],
   link: "https://digital.gov.eg/services/ration-death-card",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -3839,7 +3839,7 @@ const electronicServices = [
     "في حال وجود أي اختلاف، يمكنك تقديم طلب متابعة عبر البوابة."
   ],
   link: "https://digital.gov.eg/services/ration-update-status",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -3863,7 +3863,7 @@ const electronicServices = [
     "يمكن متابعة حالة الطلب لمعرفة موعد إضافة الأفراد رسميًا."
   ],
   link: "https://digital.gov.eg/services/ration-add-spouse",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -3887,7 +3887,7 @@ const electronicServices = [
     "يمكن متابعة حالة الطلب لمعرفة موعد تحديث البيانات رسميًا."
   ],
   link: "https://digital.gov.eg/services/ration-name-change",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -3909,7 +3909,7 @@ const electronicServices = [
     "يمكن متابعة حالة الطلب لمعرفة موعد تنفيذ الإلغاء رسميًا."
   ],
   link: "https://digital.gov.eg/services/ration-remove-member",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -3934,7 +3934,7 @@ const electronicServices = [
     "بعد اكتمال التحديث، ستصبح البطاقة محدثة بمحل السكن المؤقت."
   ],
   link: "https://digital.gov.eg/services/ration-temporary-address-update",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -3960,7 +3960,7 @@ const electronicServices = [
     "يمكن متابعة حالة التظلم لمعرفة النتيجة ومتى سيتم إضافة المواليد رسميًا."
   ],
   link: "https://digital.gov.eg/services/ration-child-appeal",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -3984,7 +3984,7 @@ const electronicServices = [
     "يمكن متابعة حالة الطلب لمعرفة نتيجة المراجعة وموعد تفعيل البطاقة."
   ],
   link: "https://digital.gov.eg/services/ration-restore",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -4006,7 +4006,7 @@ const electronicServices = [
     "تأكد من أن كل البيانات الظاهرة صحيحة قبل الاستخدام."
   ],
   link: "https://digital.gov.eg/services/bread-certificate",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "المواطنون" }
 },
 {
@@ -4030,7 +4030,7 @@ const electronicServices = [
     "سيتم إيقاف البطاقة فورًا لحين إصدار بدل فاقد."
   ],
   link: "https://digital.gov.eg/services/ration-lost",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -4052,7 +4052,7 @@ const electronicServices = [
     "تأكد من مراجعة البيانات قبل الذهاب لاستلام البطاقة."
   ],
   link: "https://digital.gov.eg/services/ration-delivery-status",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "المواطنون" }
 },
 {
@@ -4076,7 +4076,7 @@ const electronicServices = [
     "يمكن متابعة حالة الطلب لمعرفة موعد تحديث البيانات رسميًا."
   ],
   link: "https://digital.gov.eg/services/ration-work-move-update",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -4100,7 +4100,7 @@ const electronicServices = [
     "يمكن متابعة حالة الطلب لمعرفة موعد تحديث البيانات رسميًا."
   ],
   link: "https://digital.gov.eg/services/ration-law-update",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -4124,7 +4124,7 @@ const electronicServices = [
     "يمكن متابعة حالة الطلب لمعرفة موعد تحديث البيانات رسميًا."
   ],
   link: "https://digital.gov.eg/services/ration-special-program-update",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -4148,7 +4148,7 @@ const electronicServices = [
     "يمكن متابعة حالة الطلب لمعرفة موعد تحديث البيانات رسميًا."
   ],
   link: "https://digital.gov.eg/services/ration-temporary-move-update",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -4173,7 +4173,7 @@ const electronicServices = [
     "يمكن متابعة حالة الطلب لمعرفة موعد تحديث البيانات رسميًا."
   ],
   link: "https://digital.gov.eg/services/ration-id-update",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -4195,7 +4195,7 @@ const electronicServices = [
     "في حال وجود أي اختلاف أو مشكلة، يمكنك تقديم طلب متابعة عبر البوابة."
   ],
   link: "https://digital.gov.eg/services/ration-update-check",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -4219,7 +4219,7 @@ const electronicServices = [
     "يمكن متابعة حالة الطلب لمعرفة موعد تحديث البطاقة رسميًا."
   ],
   link: "https://digital.gov.eg/services/ration-newborn-update",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -4241,7 +4241,7 @@ const electronicServices = [
     "في حال وجود أي اختلاف أو مشكلة، يمكنك تقديم طلب متابعة عبر البوابة."
   ],
   link: "https://digital.gov.eg/services/ration-appeal-check",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -4265,7 +4265,7 @@ const electronicServices = [
     "يمكن متابعة حالة الطلب لمعرفة موعد تفعيل الرقم الجديد رسميًا."
   ],
   link: "https://digital.gov.eg/services/ration-phone-change",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -4289,7 +4289,7 @@ const electronicServices = [
     "يمكن متابعة حالة الطلب لمعرفة موعد استلام البطاقة الجديدة رسميًا."
   ],
   link: "https://digital.gov.eg/services/ration-lost-replace",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -4313,7 +4313,7 @@ const electronicServices = [
     "يمكن متابعة حالة الطلب لمعرفة موعد تحديث البيانات رسميًا."
   ],
   link: "https://digital.gov.eg/services/ration-permanent-address-update",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -4335,7 +4335,7 @@ const electronicServices = [
     "تأكد من مراجعة البيانات بدقة."
   ],
   link: "https://digital.gov.eg/services/ration-monthly-quota",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "المواطنون" }
 },
 {
@@ -4360,7 +4360,7 @@ const electronicServices = [
     "يمكن متابعة حالة الطلب لمعرفة موعد تحديث البيانات رسميًا."
   ],
   link: "https://digital.gov.eg/services/ration-family-update",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -4384,7 +4384,7 @@ const electronicServices = [
     "يمكن متابعة حالة الطلب لمعرفة موعد تحديث البيانات رسميًا."
   ],
   link: "https://digital.gov.eg/services/ration-property-change",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -4408,7 +4408,7 @@ const electronicServices = [
     "يمكن متابعة حالة الطلب لمعرفة موعد تحديث البيانات رسميًا."
   ],
   link: "https://digital.gov.eg/services/ration-divorce-death-update",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -4432,7 +4432,7 @@ const electronicServices = [
     "يمكن متابعة حالة الطلب لمعرفة موعد تحديث البيانات رسميًا."
   ],
   link: "https://digital.gov.eg/services/ration-add-family-update",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأسر" }
 },
 {
@@ -4455,7 +4455,7 @@ const electronicServices = [
     "يمكن متابعة حالة الطلب لمعرفة موعد تفعيل البطاقة الجديدة رسميًا."
   ],
   link: "https://digital.gov.eg/services/ration-independent-update",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأفراد" }
 },
 {
@@ -4477,7 +4477,7 @@ const electronicServices = [
     "في حال وجود أي اختلاف أو مشكلة، يمكنك تقديم طلب متابعة عبر البوابة."
   ],
   link: "https://digital.gov.eg/services/ration-independent-check",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأفراد" }
 },
 {
@@ -4501,7 +4501,7 @@ const electronicServices = [
     "يمكن متابعة حالة الطلب لمعرفة موعد استلام البطاقة الجديدة."
   ],
   link: "https://digital.gov.eg/services/ration-lost-independent",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأفراد" }
 },
 {
@@ -4525,7 +4525,7 @@ const electronicServices = [
     "يمكن متابعة حالة الطلب لمعرفة موعد تفعيل الرقم الجديد رسميًا."
   ],
   link: "https://digital.gov.eg/services/ration-phone-independent",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأفراد" }
 },
 {
@@ -4549,7 +4549,7 @@ const electronicServices = [
     "يمكن متابعة حالة الطلب لمعرفة موعد تحديث البيانات رسميًا."
   ],
   link: "https://digital.gov.eg/services/ration-address-independent",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأفراد" }
   },
 {
@@ -4573,7 +4573,7 @@ const electronicServices = [
     "يمكن متابعة حالة الطلب لمعرفة موعد تحديث البيانات رسميًا."
   ],
   link: "https://digital.gov.eg/services/ration-social-change",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأفراد" }
 },
 {
@@ -4595,7 +4595,7 @@ const electronicServices = [
     "في حال وجود أي اختلاف أو مشكلة، يمكنك تقديم طلب متابعة عبر البوابة."
   ],
   link: "https://digital.gov.eg/services/ration-independent-update-check",
-  location: "بوابة دعم مصر",
+  location: "منصة دعم مصر",
   categories: { domain: "الخدمات التموينية", target: "الأفراد" }
 },
 {
@@ -4683,7 +4683,7 @@ const electronicServices = [
     "ستصلك رسالة نصية تحتوي على تفاصيل استلام البطاقة في المدرسة."
   ],
   link: "https://digital.gov.eg/services/student-health-card",
-  location: "بوابة وزارة التعليم",
+  location: "وزارة التربية والتعليم",
   categories: { domain: "الخدمات الصحية", target: "الطلاب" }
 },
 {
@@ -5955,9 +5955,44 @@ const electronicServices = [
       "اختر وسيلة الاستلام وادفع الرسوم.",
       "احتفظ برقم الطلب لمتابعة التنفيذ."
     ],
-    link: "https://digital.gov.eg/services/id-marital-status",
+    link: "https://digital.gov.eg/",
     location: "منصة مصر الرقمية",
     categories: { domain: "الخدمات الرقمية", target: "مواطنون" }
   }
 ];
+
+    let electronicServices = [];
+    newservrise.map((services,index) =>{
+        if (services.location === "منصة مصر الرقمية") {
+            services.link = "https://digital.gov.eg/"
+            electronicServices.push(services)
+        }else if (services.location === "وزارة التربية والتعليم") {
+            services.link = "https://moe.gov.eg/"
+            electronicServices.push(services)
+        }else if (services.location === "بوابة التنسيق الإلكتروني") {
+            services.link = ""
+            electronicServices.push(services)
+        }else if (services.location === "وزارة التعليم العالي"){
+            services.link = "https://mohesr.gov.eg/"
+            electronicServices.push(services)
+        }else if (services.location === "بوابة وزارة الصحة") {
+            services.link = "https://www.mohp.gov.eg/"
+            electronicServices.push(services)
+        }else if (services.location === "بوابة العلاج على نفقة الدولة"){
+            services.link = "https://smc.smcegy.com/smcportal/login"
+            electronicServices.push(services)
+        }else if (services.location === "وزارة التضامن الاجتماعي") {
+            services.link = "https://www.moss.gov.eg/ar-eg/Pages/default.aspx"
+            electronicServices.push(services)
+        }else if (services.location === "الهيئة القومية للتأمين الاجتماعي") {
+            services.link = "https://www.nosi.gov.eg/ar/Pages/HomePage/Home.aspx"
+            electronicServices.push(services)
+        }else if (services.location === "منصة دعم مصر") {
+            services.link = "http://www.tamwin.com.eg/"
+            electronicServices.push(services)
+        }else if (services.location === "بوابة التأمين الصحي"){
+            services.link = "https://www.hio.gov.eg/"
+            electronicServices.push(services)
+        }
+    })
 export default electronicServices;
