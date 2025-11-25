@@ -4,8 +4,8 @@ import AnimatedBottomToTop from "../Animated/AnimatedBottomToTop"
 import AnimatedRightToLeft from "../Animated/AnimatedRightToLeft"
 const features = [
   { id: 1, icon: "bxs-time bx-spin", title: "توفر وقتك", desc: "بدل ما تلف على مواقع كتير، كل الخدمات في مكان واحد." },
-  { id: 2, icon: "bxs-file bx-tada", title: "معلومات دقيقة وواضحة", desc: "كل الخطوات مكتوبة بشكل مبسّط ومنظم." },
-  { id: 3, icon: "bxs-devices bx-flashing", title: "سهل الاستخدام", desc: "تصميم بسيط هيوصلك للخدمة اللي عايزها." },
+  { id: 2, icon: "bxs-file", title: "معلومات دقيقة وواضحة", desc: "كل الخطوات مكتوبة بشكل مبسّط ومنظم." },
+  { id: 3, icon: "bxs-devices", title: "سهل الاستخدام", desc: "تصميم بسيط هيوصلك للخدمة اللي عايزها." },
 ];
 
 function WhyKhedmeti() {

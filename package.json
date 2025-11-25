@@ -19,6 +19,8 @@
     "react-intersection-observer": "^10.0.0",
     "react-router-dom": "^7.9.5",
     "react-scripts": "5.0.1",
+    "source-map-loader": "^5.0.0",
+    "video.js": "^8.23.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

@@ -1,4 +1,4 @@
-const newservrise = [
+const electronicServices = [
 {
   id: 251,
   title: "التسجيل في الهوية الرقمية المصرية (تأتيكم قريباً)",
@@ -5960,39 +5960,28 @@ const newservrise = [
     categories: { domain: "الخدمات الرقمية", target: "مواطنون" }
   }
 ];
+electronicServices.forEach((services) => {
+  if (services.location === "منصة مصر الرقمية") {
+    services.link = "https://digital.gov.eg/";
+  } else if (services.location === "وزارة التربية والتعليم") {
+    services.link = "https://moe.gov.eg/";
+  } else if (services.location === "بوابة التنسيق الإلكتروني") {
+    services.link = "https://tansik.digital.gov.eg/application/";
+  } else if (services.location === "وزارة التعليم العالي") {
+    services.link = "https://mohesr.gov.eg/";
+  } else if (services.location === "بوابة وزارة الصحة") {
+    services.link = "https://www.mohp.gov.eg/";
+  } else if (services.location === "بوابة العلاج على نفقة الدولة") {
+    services.link = "https://smc.smcegy.com/smcportal/login";
+  } else if (services.location === "وزارة التضامن الاجتماعي") {
+    services.link = "https://www.moss.gov.eg/ar-eg/Pages/default.aspx";
+  } else if (services.location === "الهيئة القومية للتأمين الاجتماعي") {
+    services.link = "https://www.nosi.gov.eg/ar/Pages/HomePage/Home.aspx";
+  } else if (services.location === "منصة دعم مصر") {
+    services.link = "http://www.tamwin.com.eg/";
+  } else if (services.location === "بوابة التأمين الصحي") {
+    services.link = "https://www.hio.gov.eg/";
+  }
+});
 
-    let electronicServices = [];
-    newservrise.map((services,index) =>{
-        if (services.location === "منصة مصر الرقمية") {
-            services.link = "https://digital.gov.eg/"
-            electronicServices.push(services)
-        }else if (services.location === "وزارة التربية والتعليم") {
-            services.link = "https://moe.gov.eg/"
-            electronicServices.push(services)
-        }else if (services.location === "بوابة التنسيق الإلكتروني") {
-            services.link = ""
-            electronicServices.push(services)
-        }else if (services.location === "وزارة التعليم العالي"){
-            services.link = "https://mohesr.gov.eg/"
-            electronicServices.push(services)
-        }else if (services.location === "بوابة وزارة الصحة") {
-            services.link = "https://www.mohp.gov.eg/"
-            electronicServices.push(services)
-        }else if (services.location === "بوابة العلاج على نفقة الدولة"){
-            services.link = "https://smc.smcegy.com/smcportal/login"
-            electronicServices.push(services)
-        }else if (services.location === "وزارة التضامن الاجتماعي") {
-            services.link = "https://www.moss.gov.eg/ar-eg/Pages/default.aspx"
-            electronicServices.push(services)
-        }else if (services.location === "الهيئة القومية للتأمين الاجتماعي") {
-            services.link = "https://www.nosi.gov.eg/ar/Pages/HomePage/Home.aspx"
-            electronicServices.push(services)
-        }else if (services.location === "منصة دعم مصر") {
-            services.link = "http://www.tamwin.com.eg/"
-            electronicServices.push(services)
-        }else if (services.location === "بوابة التأمين الصحي"){
-            services.link = "https://www.hio.gov.eg/"
-            electronicServices.push(services)
-        }
-    })
 export default electronicServices;

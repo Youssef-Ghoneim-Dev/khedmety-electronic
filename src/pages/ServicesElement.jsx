@@ -1,18 +1,32 @@
 import { useParams } from 'react-router-dom';
 import electronicServices from "../data/ServiceData";
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import AnimatedLeftToRight from "../Animated/AnimatedLeftToRight"
 import AnimatedRightToLeft from "../Animated/AnimatedRightToLeft"
 import AnimatedBottomToTop from "../Animated/AnimatedBottomToTop"
 function ServiceDetailsElement() {
-        const location = useLocation();
+    let [video, setVideo] = useState(false);
+    let [linkUrl, setLinkUrl] = useState("");
+    const location = useLocation();
     useEffect(() => {
         window.scrollTo(0, 0);
     }, [location.pathname]);
   const { id } = useParams();
   const service = electronicServices[id - 251]; 
-  if (!service) return <div>الخدمة غير موجودة</div>;
+useEffect(() => {
+  if (service.location === "منصة مصر الرقمية") {
+    setVideo(true);
+    setLinkUrl("https://www.youtube.com/embed/Ku8oQWbyBNg");
+  } else if (service.location === "بوابة العلاج على نفقة الدولة") {
+    setVideo(true);
+    setLinkUrl("https://www.youtube.com/embed/arw0U0t9g8Q");
+  } else {
+    setVideo(false);
+    setLinkUrl("");
+  }
+}, [service.location]);
+  if (!service){return <div>الخدمة غير موجودة</div>};
   return (
     <div className='w-100'>
         <div className="container mt-4" dir="rtl">
@@ -172,20 +186,26 @@ function ServiceDetailsElement() {
                     </div>
                 </div>
                 </AnimatedLeftToRight>
-            </div>
-            <div>
-                <AnimatedRightToLeft>
-                    <h2 className='mb-5 small-title'>فيديو توضيحي لطريقة تسجيل الدخول علي منصة مصر الرقمية :</h2>
-                </AnimatedRightToLeft>
-                <AnimatedBottomToTop>
+                {video && (
+                <div>
+                    <AnimatedRightToLeft>
+                    <h2 className='mb-5 mt-5 small-title'>
+                        فيديو توضيحي لطريقة تسجيل الدخول علي {service.location} :
+                    </h2>
+                    </AnimatedRightToLeft>
+
+                    <AnimatedBottomToTop>
                     <div className="ratio ratio-16x9 mb-5">
                         <iframe
-                            src="https://www.youtube.com/embed/Ku8oQWbyBNg?si=nZHZkjwokIAA5A2O"
-                            title="YouTube video"
-                            allowFullScreen
+                        src={linkUrl}
+                        title="YouTube video"
+                        allowFullScreen
                         ></iframe>
                     </div>
-                </AnimatedBottomToTop>
+                    </AnimatedBottomToTop>
+                </div>
+                )}
+
             </div>
         </div>
     </div>
